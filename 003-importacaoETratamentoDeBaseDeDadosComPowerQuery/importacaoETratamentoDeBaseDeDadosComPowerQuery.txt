@@ -5,3 +5,6 @@ No Power Query clicar na tabela onde as colunas devem ser adicionadas, aba Pági
 Deve indicar qual a coluna que as tabelas tem em comum que serão utilizadas para a mesclagem clicando em ambas as colunas em questão
 
 A tabela de onde virão as informações serão adicionadas e então poderemos escolher as colunas pertinentes a serem adicionadas
+
+
+-----------------------------------------------------------------------------------------------------------------
