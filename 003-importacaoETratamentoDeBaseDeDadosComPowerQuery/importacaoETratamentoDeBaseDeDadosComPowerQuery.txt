@@ -16,3 +16,22 @@ Unir dados de várias tabelas diferentes que possuem as mesmas colunas e tipos d
 
 No Power Query ir na aba Página Inicial do Menu Superior -> Combinar -> Acrescentar Consultas -> Acrescentar Consultas
 ('Acrescentar Consultas como Novas' criará uma nova tabela com a união das tabelas em questão deixando as tabelas originais como estavam)
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+17-importarDaPasta
+
+Utilizado para importar dados presentes em uma pasta do sistema operacional.
+
+Menu Superior Aba Página Inicial -> Obter Dados -> Opção 'Pasta'
+
+Serão mostrados os arquivos presentes na pasta, utilizaremos a opção 'Transformar Dados' para editar a tabela escolhendo os arquivos de preferência para serem importados. Podemos clicar em nome para escolher quais tabelas e incluir filtros para criar uma regra de importação.
+
+Após efetuar a seleção das tabelas devemos ir na primeira coluna de nome 'Content' para combinar arquivos, para que funcione os nomes e tipos de colunas devem ser iguais e estar na mesma ordem. Em 'arquivo de amostra' escolheremos o padrão a ser seguido para todos os arquivos.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
