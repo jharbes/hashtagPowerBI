@@ -35,3 +35,13 @@ Após efetuar a seleção das tabelas devemos ir na primeira coluna de nome 'Con
 -----------------------------------------------------------------------------------------------------------------
 
 
+19-comoAtualizarOPowerBIComAsNovasVendas(2019,2020...)
+
+Para isso basta adicionar o arquivo novo sujeito a regra escolhida e adicionar no diretorio, ao atualizar (no menu superior página inicial) ele fará automaticamente a importação dos novos dados e atualizará a tabela correspondente.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
