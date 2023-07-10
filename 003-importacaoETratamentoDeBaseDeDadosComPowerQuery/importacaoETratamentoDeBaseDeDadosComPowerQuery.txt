@@ -35,7 +35,7 @@ Após efetuar a seleção das tabelas devemos ir na primeira coluna de nome 'Con
 -----------------------------------------------------------------------------------------------------------------
 
 
-19-comoAtualizarOPowerBIComAsNovasVendas(2019,2020...)
+18-comoAtualizarOPowerBIComAsNovasVendas(2019,2020...)
 
 Para isso basta adicionar o arquivo novo sujeito a regra escolhida e adicionar no diretorio, ao atualizar (no menu superior página inicial) ele fará automaticamente a importação dos novos dados e atualizará a tabela correspondente.
 
@@ -43,5 +43,9 @@ Para isso basta adicionar o arquivo novo sujeito a regra escolhida e adicionar n
 -----------------------------------------------------------------------------------------------------------------
 
 
+19-ferramentasDeDataNoPowerQuery
 
+Na existência de uma coluna de datas podemos clicar nela e ir no menu superior em 'adicionar coluna' -> 'data' e escolher alguma coluna a ser adicionada que seja derivada da coluna data.
+
+Podemos adicionar idade por meio da data de nascimento, para isso clicamos na coluna da data de nascimento -> adicionar coluna -> idade . A coluna será adicionada com a idade em dias, para mudarmos para ano selecionamos a coluna idade, vamos no menu superior 'transformar' e em 'duração' -> 'dias' (o resultado será decimal) para truncarmos escolheremos novamente a coluna idade -> transformar -> arredondamento -> arredondar para baixo.
 
