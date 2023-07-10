@@ -49,3 +49,19 @@ Na existência de uma coluna de datas podemos clicar nela e ir no menu superior 
 
 Podemos adicionar idade por meio da data de nascimento, para isso clicamos na coluna da data de nascimento -> adicionar coluna -> idade . A coluna será adicionada com a idade em dias, para mudarmos para ano selecionamos a coluna idade, vamos no menu superior 'transformar' e em 'duração' -> 'dias' (o resultado será decimal) para truncarmos escolheremos novamente a coluna idade -> transformar -> arredondamento -> arredondar para baixo.
 
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+20-criandoTabelaCalendarioDinamica
+
+No Power Query vamos em Menu Superior -> Página Inicial -> Nova Fonte -> Consulta Nula. Na barra de fórmulas preenchemos:
+
+= NomeDaTabela[Coluna De Datas]
+
+e ele vai criar a tabela dinamica com todos os valores de data existentes na coluna solicitada
+
+
+Para criar de TODAS as datas entre uma data inicial e outra final devemos fazer o seguinte: 
+
+= List.Min(NomeDaTabela[Coluna De Datas]
