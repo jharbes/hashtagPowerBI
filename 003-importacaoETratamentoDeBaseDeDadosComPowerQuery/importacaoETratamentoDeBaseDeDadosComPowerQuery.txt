@@ -8,3 +8,11 @@ A tabela de onde virão as informações serão adicionadas e então poderemos e
 
 
 -----------------------------------------------------------------------------------------------------------------
+
+
+16-acrescentarConsultas
+
+Unir dados de várias tabelas diferentes que possuem as mesmas colunas e tipos de dados.
+
+No Power Query ir na aba Página Inicial do Menu Superior -> Combinar -> Acrescentar Consultas -> Acrescentar Consultas
+('Acrescentar Consultas como Novas' criará uma nova tabela com a união das tabelas em questão deixando as tabelas originais como estavam)
