@@ -66,6 +66,9 @@ e ele vai criar a tabela dinamica com todos os valores de data existentes na col
 
 Para criar de TODAS as datas entre uma data inicial e outra final devemos fazer o seguinte: 
 
+
+I)
+
 na barra de fórmulas digitar:
 = List.Min(NomeDaTabela[Coluna De Datas])
 dar ENTER, aparecerá a data mínima da tabela, entao clicaremos em fx na barra de formulas para salvar a etapa
@@ -74,5 +77,42 @@ na barra de fórmulas digitar:
 = List.Max(NomeDaTabela[Coluna De Datas])
 dar ENTER, aparecerá a data máxima da tabela, entao clicaremos em fx na barra de formulas para salvar a etapa
 
-Renomearemos as etapas para DataMin (a primeira, só será possivel por meio da aba 'Página Inicial'->'Editor Avançado'
+
+II)
+
+Renomearemos as etapas para DataMin (data inicial) e DataMax (data final) (a primeira, só será possivel por meio da aba 'Página Inicial'->'Editor Avançado'
 a segunda etapa pode ser renomeada clicando com o botão direito do mouse sobre ela e indo na opção 'Renomear'
+
+
+III) 
+
+Calcularemos o número de dias entre a data inicial e data final, dica: Para fazer isso podemos utilizar o excel/power query preenchendo a data inicial e final em células distintas depois subtraindo a maior da menor e somando 1.
+Ex: =DataMax-DataMin+1 (excel)
+
+Na nova etapa utilizaremos a fórmula = Duration.Days(DataMax-DataMin)+1
+dar ENTER, aparecerá a duração em dias do intervalo de datas, entao clicaremos em fx na barra de formulas para salvar a etapa
+
+Renomeareos a etapa para QtdeDias
+
+
+IV)
+
+Na nova etapa preencheremos a barra de fórmula com a seguinte expressão para criar a tabela dos dias:
+= List.Dates(DataMin,QtdeDias,#duration(1,0,0,0))
+
+(x,x,x,x) representam dias , horas, minutos e segundos respectivamente
+
+
+V)
+
+Criada a lista utilizaremos no Menu Superior a opção 'Transformar'->'Para a tabela' para converter a lista em uma tabela
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
