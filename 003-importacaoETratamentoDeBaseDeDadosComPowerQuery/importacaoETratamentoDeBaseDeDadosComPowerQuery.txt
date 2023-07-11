@@ -55,6 +55,8 @@ Podemos adicionar idade por meio da data de nascimento, para isso clicamos na co
 
 20-criandoTabelaCalendarioDinamica
 
+O Power Query pode além de editar planilhas também criá-las.
+
 No Power Query vamos em Menu Superior -> Página Inicial -> Nova Fonte -> Consulta Nula. Na barra de fórmulas preenchemos:
 
 = NomeDaTabela[Coluna De Datas]
@@ -64,4 +66,13 @@ e ele vai criar a tabela dinamica com todos os valores de data existentes na col
 
 Para criar de TODAS as datas entre uma data inicial e outra final devemos fazer o seguinte: 
 
-= List.Min(NomeDaTabela[Coluna De Datas]
+na barra de fórmulas digitar:
+= List.Min(NomeDaTabela[Coluna De Datas])
+dar ENTER, aparecerá a data mínima da tabela, entao clicaremos em fx na barra de formulas para salvar a etapa
+
+na barra de fórmulas digitar:
+= List.Max(NomeDaTabela[Coluna De Datas])
+dar ENTER, aparecerá a data máxima da tabela, entao clicaremos em fx na barra de formulas para salvar a etapa
+
+Renomearemos as etapas para DataMin (a primeira, só será possivel por meio da aba 'Página Inicial'->'Editor Avançado'
+a segunda etapa pode ser renomeada clicando com o botão direito do mouse sobre ela e indo na opção 'Renomear'
