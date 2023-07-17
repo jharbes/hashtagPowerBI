@@ -111,8 +111,10 @@ Criada a lista utilizaremos no Menu Superior a opção 'Transformar'->'Para a ta
 -----------------------------------------------------------------------------------------------------------------
 
 
+23-colunasCondicionais
+
+Para adicionar uma coluna condicional iremos no power query em Menu Superior->'Adicionar Coluna'->'Coluna Condicional' e faremos o preenchimento de acordo com o necessário
 
 
-
-
+-----------------------------------------------------------------------------------------------------------------
 
