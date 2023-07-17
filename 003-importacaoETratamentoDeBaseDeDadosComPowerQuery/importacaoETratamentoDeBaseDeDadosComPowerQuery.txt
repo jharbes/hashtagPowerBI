@@ -127,4 +127,13 @@ Para desligar atualizacoes de uma tabela em especial de modo a evitar que as atu
 -----------------------------------------------------------------------------------------------------------------
 
 
+25-parametrosNoPowerQuery
+
+Podemos usar um parametro no power query para guardar uma informação (como se fosse uma variável), como por exemplo a path de onde estão os arquivos da base da dados utilizada
+
+Pra criar um parâmetro vamos, dentro do Power Query no Menu Superior 'Página Inicial'-> Gerenciar Parâmetros -> Adicionar Novo Parâmetro
+
+
+-----------------------------------------------------------------------------------------------------------------
+
 
