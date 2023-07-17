@@ -137,3 +137,27 @@ Pra criar um parâmetro vamos, dentro do Power Query no Menu Superior 'Página I
 -----------------------------------------------------------------------------------------------------------------
 
 
+26-importandoETratandoBaseDeDados-BoasPraticas
+
+1-Deixe tudo organizado antes de importar os dados para o PowerBI
+	- Defina nomes intuitivos para as tabelas e colunas
+	- Deixe todas as colunas formatadas corretamente
+
+2-Evite deixar as tabelas desnecessariamente grandes
+	- Só pegue as informações que realmente precisa.
+	- Mescle colunas apenas se realmente achar necessário
+
+3-Desabilite as atualizações para tabelas que não mudam
+	- Tabelas que mudam pouco(ou nunca), não precisam ser sempre atualizadas.
+	- Deixa a atualização das bases de dados muito mais rápida e eficiente
+
+4-Otimize as etapas aplicadas
+	- Tente evitar criar muitas etapas desnecessárias no Power Query.
+	- Usar a barra de fórmulas do Power Query para evitar criar etapas (renomear coluna, alterar tipo, etc)
+
+5-Crie Parâmetros para caso o caminho dos arquivos seja alterado
+	- Facilita muito caso o nome da pasta ou o local de arquivos seja alterado
+	- Evita muito retrabalho
+
+	
+-----------------------------------------------------------------------------------------------------------------
