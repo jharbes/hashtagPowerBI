@@ -118,3 +118,13 @@ Para adicionar uma coluna condicional iremos no power query em Menu Superior->'A
 
 -----------------------------------------------------------------------------------------------------------------
 
+
+24-configurandoAtualizacoesDeConsultas
+
+Para desligar atualizacoes de uma tabela em especial de modo a evitar que as atualizacoes rotineiras se tornem muito lentas podemos desabilitar atualizacoes de alguma tabela em especial, para isso vamos no power query, clicamos com o botão direito do mouse em cima da tabela em questão e desmarcamos a opção 'Incluir na atualização do relatório'
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
