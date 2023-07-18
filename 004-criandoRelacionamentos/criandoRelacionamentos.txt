@@ -10,3 +10,14 @@ Tabela Características
 
 --------------------------------------------------------------------------------------------------------
 
+
+04-identificandoAsTabelasFatoETabelasCaracteristicas
+
+Maneira comum de se organizar tabelas fato e tabelas caracteristicas é de manter as tabelas características na parte de cima do modelo logico e as tabela fato na parte de baixo do mesmo modelo.
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
