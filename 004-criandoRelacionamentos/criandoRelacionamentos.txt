@@ -19,5 +19,17 @@ Maneira comum de se organizar tabelas fato e tabelas caracteristicas é de mante
 --------------------------------------------------------------------------------------------------------
 
 
+05-chavePrimaria X chave Estrangeira
 
+Chave Primária
+	- Coluna com valores que não se repetem
+	- Cada valor representa uma única linha da tabela
+	- Serve como referência para dar informações complementares usando a CHAVE ESTRANGEIRA de outra tabela.
+
+Chave Estrangeira
+	- Coluna com valores que podem se repetir
+	- É usada para se relacionar com CHAVES PRIMÁRIAS nas Tabelas Características
+
+
+--------------------------------------------------------------------------------------------------------
 
