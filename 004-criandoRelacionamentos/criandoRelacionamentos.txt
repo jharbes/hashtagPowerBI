@@ -19,7 +19,7 @@ Maneira comum de se organizar tabelas fato e tabelas caracteristicas é de mante
 --------------------------------------------------------------------------------------------------------
 
 
-05-chavePrimaria X chave Estrangeira
+05-chavePrimaria X chaveEstrangeira
 
 Chave Primária
 	- Coluna com valores que não se repetem
@@ -33,3 +33,14 @@ Chave Estrangeira
 
 --------------------------------------------------------------------------------------------------------
 
+
+08-criandoRelacionamentos
+
+Para criar relacionamentos vamos na 3a aba da pagina principal do PowerBI chamada de 'Exibição de Modelo' onde está o modelo lógico da estrutura de dados, então clicaremos e arrastaremos as colunas que relacionam-se entre si como chaves primárias e secundárias, a ordem na hora de arrastar não interfere no resultado.
+
+Também podemos incluir o relacionamento por meio da opção do Menu Superior -> Página Inicial -> Gerenciar Relações
+
+IMPORTANTE**: O PowerBI possui a opção 'Detectar automaticamente novos relacionamentos depois que os dados são carregados' habilitada por default, o que pode ajudar ou atrapalhar dependendo do caso.
+
+
+--------------------------------------------------------------------------------------------------------
