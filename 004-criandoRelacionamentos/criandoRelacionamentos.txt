@@ -1,2 +1,12 @@
-02-criandoRelacionamentosXMesclandoConsultas
+03-tabelaFato X tabelaCaracteristica
+
+Tabela Fato
+	- Tabela que representa informacoes sobre fatos que aconteceram (venda, producao, transporte, etc)
+	- Cada linha representa as informações sobre um fato (uma venda, etc)
+
+Tabela Características
+	- Tabelas que representam características ou atributos sobre uma informação contina na Tabela Fato (ex: Nome dos clientes, Nome do Produto etc)
+
+
+--------------------------------------------------------------------------------------------------------
 
