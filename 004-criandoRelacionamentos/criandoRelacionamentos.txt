@@ -58,3 +58,7 @@ Podemos editar/gerenciar os relacionamentos existentes na aba 'Exibição de Mod
 
 Não é possível fazer dois relacionamentos entre duas tabelas ao mesmo tempo, caso isso seja feito um deles ficará ativo (linha contínua no modelo) e o outro ficará inativo (linha tracejada no modelo)
 
+Para ativarmos o novo relacionamento primeiro precisamos inativar o relacionamento antigo, logo depois poderemos ativar o novo relacionamento.
+
+
+--------------------------------------------------------------------------------------------------------
