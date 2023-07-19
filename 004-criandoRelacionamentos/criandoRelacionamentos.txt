@@ -44,3 +44,11 @@ IMPORTANTE**: O PowerBI possui a opção 'Detectar automaticamente novos relacio
 
 
 --------------------------------------------------------------------------------------------------------
+
+
+10-gerenciandoEEditandoRelacionamentos
+
+Podemos editar/gerenciar os relacionamentos existentes na aba 'Exibição de Modelo' -> Menu Superior -> Gerenciar Relações, podemos também dar um duplo clique sobre a seta do relacionamento para editar diretamente um relacionamento.
+
+
+--------------------------------------------------------------------------------------------------------
