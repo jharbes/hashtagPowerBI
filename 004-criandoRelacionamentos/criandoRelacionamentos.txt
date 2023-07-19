@@ -52,3 +52,9 @@ Podemos editar/gerenciar os relacionamentos existentes na aba 'Exibição de Mod
 
 
 --------------------------------------------------------------------------------------------------------
+
+
+11-relacoesAtivas X relacoesInativas
+
+Não é possível fazer dois relacionamentos entre duas tabelas ao mesmo tempo, caso isso seja feito um deles ficará ativo (linha contínua no modelo) e o outro ficará inativo (linha tracejada no modelo)
+
