@@ -62,3 +62,21 @@ Para ativarmos o novo relacionamento primeiro precisamos inativar o relacionamen
 
 
 --------------------------------------------------------------------------------------------------------
+
+
+13-cardinalidadeDosRelacionamentos
+
+1 para muitos		(1 -> *) - O mais comum
+	- 1 na tabela Caracteristicas
+	- Muitos na tabela fato
+
+Muitos para muitos	(* -> *)
+	- Muitos em uma tabela fato
+	- Muitos em outra tabela fato
+
+1 para 1		(1 -> 1)
+	- Um em uma tabela Características
+	- Um em outra tabela Características
+
+
+--------------------------------------------------------------------------------------------------------
