@@ -88,3 +88,11 @@ O filtro sempre deverá ser feito usando o item da tabela características, ou s
 
 
 --------------------------------------------------------------------------------------------------------
+
+
+17-filtroBidirecional
+
+Para ativar o filtro bidirecional clicamos na seta do relacionamento na aba 'Exibição de Modelo' e colocamos a opção de 'Direção do filtro cruzado' para 'Ambas'
+
+
+--------------------------------------------------------------------------------------------------------
