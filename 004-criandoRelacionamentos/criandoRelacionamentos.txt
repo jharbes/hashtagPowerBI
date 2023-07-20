@@ -80,3 +80,11 @@ Muitos para muitos	(* -> *)
 
 
 --------------------------------------------------------------------------------------------------------
+
+
+16-entendendoADirecaoDoFiltro
+
+O filtro sempre deverá ser feito usando o item da tabela características, ou seja, da tabela de onde a seta SAI, caso isso não seja feito haverá erro na consulta.
+
+
+--------------------------------------------------------------------------------------------------------
