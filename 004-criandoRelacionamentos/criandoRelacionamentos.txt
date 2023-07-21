@@ -108,3 +108,24 @@ Podemos ocultar também tabelas inteiras caso seja necessária (principalmente n
 
 
 --------------------------------------------------------------------------------------------------------
+
+
+19-criandoRelacionamentos-boasPraticas
+
+Crie um modelo de dados organizado e normalizado
+	- Cada tabela deve servir para um propósito (BaseVendas, BaseDevolucoes, CadastroClientes...)
+	- Use relacionamentos no lugar de colunas mescladas. As tabelas ficam mais leves
+
+Organize Tabelas Características acima das Tabelas Fato no PowerBI
+	- Isso deixa mais visual e intuitivo para criar os relacionamentos entre Chaves Primárias (colunas com valores únicos na sua Tabela Característica) e Chaves Estrangeiras (colunas com valores repetidos da sua Tabela Fato.
+	-Ajuda a lembrar que o filtro só desde das Tabelas Características para as Tabelas Fato
+
+Evite usar filtro bidirecional a não ser que seja necessário
+	- Isso pode causar erros no seu relatório (faltar informações, etc)
+
+Oculte no relatório campos que não precisam ser usados
+	- Isso ajuda a evitar erros de filtro no relatório
+	- Deixa o relatório muito mais organizado e visual
+
+
+--------------------------------------------------------------------------------------------------------
