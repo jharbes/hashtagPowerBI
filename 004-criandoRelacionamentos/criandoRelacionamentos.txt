@@ -96,3 +96,15 @@ Para ativar o filtro bidirecional clicamos na seta do relacionamento na aba 'Exi
 
 
 --------------------------------------------------------------------------------------------------------
+
+
+18-ocultandoCamposDoRelatorio
+
+Alguns filtros de consultas podem ser indesejadas e gerar informações erradas como por exemplo a consulta de produtos por meio da tabela de vendas (tabela fato), por isso podemos ocultar esses campos no filtro mantendo o filtro disponivel apenas tabela produtos por exemplo (tabela caracteristica).
+
+Para isso vamos na aba 'Exibição de Modelo', clicamos com o botão direito do mouse sobre o item desejado para ocultar o filtro e clicamos em 'Ocultar da visualização do relatório'
+
+Podemos ocultar também tabelas inteiras caso seja necessária (principalmente no caso de duplicidade de dados)
+
+
+--------------------------------------------------------------------------------------------------------
