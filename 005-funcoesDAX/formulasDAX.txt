@@ -15,3 +15,18 @@ Duas Maneiras de usar DAX:
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+03-introducaoAColunasCalculadas-parte1
+
+Para adicionar uma coluna calculada podemos ir no Menu Superior -> 'Página Inicial/Home' -> 'Nova Coluna'
+ou clicamos com o segundo botão na última coluna da tabela e vamos na opção 'Nova Coluna'
+
+Após a criação da Nova Coluna utilizaremos a barra de fórmula com a coluna toda selecionada para editar seu nome e criar a lógica de seu preenchimento
+
+Exemplo:
+	Tipo do Pedido = if('Base Vendas 2016 - 2018'[Tamanho Pedido]>1, "Pedido Múltiplo", "Pedido Único")
+
+
+---------------------------------------------------------------------------------------------------------
+
