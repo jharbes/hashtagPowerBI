@@ -56,3 +56,22 @@ usamos o cálculo de medidas geralmente para efetuar calculos numéricos entrand
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+06-recapitulando-colunasCalculadas X Medidas
+
+Colunas Calculadadas
+	- Os valores são calculados baseados na informação de cada linha da tabela (são calculados individualmente pra cada linha, chamado de 'Contexto de Linha')
+	- Acrescenta uma nova coluna na tabela
+	- Recalcula de acordo com alterações nas células
+	- Em geral são usadas nos campos de LINHA, COLUNA ou FILTROS nas Matrizes/Gráficos
+
+
+Medidas
+	- Os valores são calculados baseados nos filtros aplicados nas Matrizes (chamado de 'Contexto de Filtro')
+	- Não acrescenta novas colunas nas tabelas
+	- Recalcula de acordo com alterações nos filtros do Relatório (em uma Matriz ou Gráfico)
+	- Quase sempre usado no campo VALORES de uma Matriz/Gráfico
+
+
+---------------------------------------------------------------------------------------------------------
