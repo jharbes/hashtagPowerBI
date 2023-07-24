@@ -30,3 +30,29 @@ Exemplo:
 
 ---------------------------------------------------------------------------------------------------------
 
+
+05-introducaoAMedidas
+
+Quando o cálculo não for linha a linha e resultar em um valor único não devemos criar uma coluna nova calculada mas sim o que chamamos no PowerBI de 'medida'
+
+A medida vai criar uma 'variável' que poderá ser utilizada dentro dos relatórios/dashboards do PowerBI
+
+Para criar uma nova medida vamos no Menu Superior -> 'Página Inicial/Home' -> 'Nova Medida'
+Agora vamos criar por meio da barra de Fórmulas a medida desejada, de maneira análoga à criação de colunas.
+Exemplo:
+	Total Pedidos = SUM('Base Vendas 2016 - 2018'[Tamanho Pedido])
+
+Observe que será criado o nome Total Pedidos dentro da aba 'Base Vendas 2016 - 2018' embora não seja uma coluna, podendo ser usada para cálculos e demonstrações no dashboard. Apenas na aba 'Exibição de Relatório' que poderemos ver o valor da Medida
+
+Podemos aplicar filtros nas medidas normalmente, como separar o 'Total Pedidos' em Homens e Mulheres na aba de relatório do PowerBI
+
+
+
+*** EM GERAL 
+
+usamos o cálculo de colunas para calcular novos critérios de criação de análises, ou seja, LINHAS/COLUNAS de um relatório
+
+usamos o cálculo de medidas geralmente para efetuar calculos numéricos entrando normalmente na parte de VALORES da matriz
+
+
+---------------------------------------------------------------------------------------------------------
