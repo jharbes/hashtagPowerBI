@@ -92,3 +92,17 @@ ou
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+10-formulasDeData-parte2
+
+Extraindo o dia da semana de uma data:
+	
+	Dia da Semana = WEEKDAY('Calendário'[Data],opcao)
+	onde opcao = 1, 2 ou 3
+	opção 1 - Dia da semana de 1 a 7, começando no Domingo e terminando no Sábado
+	opção 2 - Dia da semana de 1 a 7, começando na Segunda e terminando no Domingo
+	opção 3 - Dia da semana de 0 a 6, começando na Segunda e terminando no Domingo 
+
+
+---------------------------------------------------------------------------------------------------------
