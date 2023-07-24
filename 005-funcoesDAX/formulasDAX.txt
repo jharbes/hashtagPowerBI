@@ -1,0 +1,17 @@
+Fórmulas DAX (Data Analysis Expressions | Expressões de Análise de Dados)
+
+---------------------------------------------------------------------------------------------------------
+
+
+02-introducaoAsFormulasDAX
+
+Duas Maneiras de usar DAX:
+
+1- Colunas Calculadas
+	Vamos criar uma coluna gerada por meio de combinação de cálculos entre outra(s) tabela(s)
+
+2- Medidas
+	Calculos feitos que não aparecem na tabela mas são usados nos relatórios
+
+
+---------------------------------------------------------------------------------------------------------
