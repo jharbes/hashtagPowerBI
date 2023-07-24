@@ -75,3 +75,20 @@ Medidas
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+09-formulasDeData-parte1
+
+Criando a coluna 'Ano' na tabela calendário:
+
+	Ano = YEAR('Calendário'[Data])
+ou
+	Ano = 'Calendário'[Data].[Ano]
+
+	Mês = MONTH('Calendário'[Data])
+ou
+ 	Mês = 'Calendário'[Data].[MonthNo] (mês numérico)
+	Mês = 'Calendário'[Data].[Mês] (mês literal)
+
+
+---------------------------------------------------------------------------------------------------------
