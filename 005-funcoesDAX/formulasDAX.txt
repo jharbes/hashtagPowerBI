@@ -129,3 +129,15 @@ Calculando diferença entre datas:
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+12-funcaoIf
+
+Podemos utilizar a condicional IF no DAX, segue um exemplo:
+
+	Categoria de Cliente = IF('Cadastro Clientes'[Idade]>40,"Categoria 1","Categoria 2")
+	onde os argumentos são:
+	(Condição, Resultado se True, Resultado se False) 
+
+
+---------------------------------------------------------------------------------------------------------
