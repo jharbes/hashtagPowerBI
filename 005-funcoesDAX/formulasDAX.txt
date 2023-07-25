@@ -206,3 +206,20 @@ Utilizada para concatenar(juntar) textos
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+21-funcoesLeftEUpper-aplicacao
+
+A função LEFT faz um recorte no texto nos N primeiros caracteres de um texto, onde N deve ser informado pelo usuário.
+
+	Exemplo, retornando o nome do mês abreviado (apenas os três primeiros caracteres):
+	
+	Mês Abreviado = LEFT('Calendário'[Nome do Mês],3)
+
+	Agora colocando o mês abreviado em maiúsculo:
+
+	Mês Abreviado = UPPER(LEFT('Calendário'[Nome do Mês],3))
+
+
+---------------------------------------------------------------------------------------------------------
+	
