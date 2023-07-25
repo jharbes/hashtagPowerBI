@@ -106,3 +106,26 @@ Extraindo o dia da semana de uma data:
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+11-formulasDeData-parte3
+
+Calculando o último dia do mês referente a uma data:
+
+	Último dia do mês = EOMONTH('Base Vendas'[Data da Venda],opcao)
+	onde opcao = 0, 1, 2, 3...
+	quando opcao=0 será o último dia do mês no próprio mês onde está a data,
+	quando opcao=1 será o ultimo dia do mês no mês seguinte onde está a data,
+	quando opcao=2 será o último dia do mês no mês atual + 2 de onde está a data,
+	e assim adiante seguindo essa lógica
+
+Calculando diferença entre datas:
+
+	Usando o exemplo de idade:
+	Idade = DATEDIFF('Cadastro Clientes'[Data de Nascimento],TODAY(),YEAR)
+	onde os argumentos serão:
+	(Data Inicial, Data Final, Unidade de tempo desejada)
+	A unidade de tempo pode ser dias, meses, anos, segundos, etc
+
+
+---------------------------------------------------------------------------------------------------------
