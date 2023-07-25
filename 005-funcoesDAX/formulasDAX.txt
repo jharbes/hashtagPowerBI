@@ -190,3 +190,19 @@ Usando o IF no DAX com várias condições (temos mais de uma maneira), o operad
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+19-funcaoConcatenate
+
+Utilizada para concatenar(juntar) textos
+
+	Exemplo (observe que a função CONCATENATE permite apenas dois argumentos, ou seja, para que seja utilizada para mais de dois textos teremos que chamá-la de maneira RECURSIVA):
+
+	Nome Completo = CONCATENATE(CONCATENATE('Cadastro Clientes'[Primeiro Nome]," "),'Cadastro Clientes'[Sobrenome])
+
+	ou
+
+	Nome Completo = 'Cadastro Clientes'[Primeiro Nome] & " " & 'Cadastro Clientes'[Sobrenome]
+
+
+---------------------------------------------------------------------------------------------------------
