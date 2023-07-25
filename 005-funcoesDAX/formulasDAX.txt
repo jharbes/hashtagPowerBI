@@ -156,3 +156,18 @@ Obs: A indentação é opcional e foi colocada apenas para melhorar o entendimen
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+14-ifComVariasCondicoes-OR-parte1
+
+Usando o IF no DAX com várias condições (temos mais de uma maneira), o operador de igual(=) pode ser usado de maneira simples (=) ou em dupla (==) igualmente darão o mesmo resultado:
+
+	Exemplo:
+	Fim de Semana = IF('Calendário'[Dia da Semana]==1 || 'Calendário'[Dia da Semana]==7,"Fim de Semana","Dia de Semana")
+
+	ou
+
+	Fim de Semana = IF(OR('Calendário'[Dia da Semana]==1,'Calendário'[Dia da Semana]==7),"Fim de Semana","Dia de Semana")
+
+
+---------------------------------------------------------------------------------------------------------
