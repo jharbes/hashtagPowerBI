@@ -122,6 +122,7 @@ Calculando o último dia do mês referente a uma data:
 Calculando diferença entre datas:
 
 	Usando o exemplo de idade:
+
 	Idade = DATEDIFF('Cadastro Clientes'[Data de Nascimento],TODAY(),YEAR)
 	onde os argumentos serão:
 	(Data Inicial, Data Final, Unidade de tempo desejada)
@@ -148,6 +149,7 @@ Podemos utilizar a condicional IF no DAX, segue um exemplo:
 Podemos utilizar a condicional IF no DAX também de forma composta(aninhada):
 
 	Exemplo:
+
 	Categoria de Cliente = IF('Cadastro Clientes'[Idade]>=60,"Categoria 1",
     		IF('Cadastro Clientes'[Idade]>=45,"Categoria 2",
         		IF('Cadastro Clientes'[Idade]>=30,"Categoria 3","Categoria 4")))
@@ -162,12 +164,29 @@ Obs: A indentação é opcional e foi colocada apenas para melhorar o entendimen
 
 Usando o IF no DAX com várias condições (temos mais de uma maneira), o operador de igual(=) pode ser usado de maneira simples (=) ou em dupla (==) igualmente darão o mesmo resultado:
 
-	Exemplo:
+	Exemplo da utilização do Operador OR ou '||':
+
 	Fim de Semana = IF('Calendário'[Dia da Semana]==1 || 'Calendário'[Dia da Semana]==7,"Fim de Semana","Dia de Semana")
 
 	ou
 
 	Fim de Semana = IF(OR('Calendário'[Dia da Semana]==1,'Calendário'[Dia da Semana]==7),"Fim de Semana","Dia de Semana")
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+16-funcaoIfComVariasCondicoes-AND-parte1
+
+Usando o IF no DAX com várias condições (temos mais de uma maneira), o operador de igual(=) pode ser usado de maneira simples (=) ou em dupla (==) igualmente darão o mesmo resultado:
+
+	Exemplo da utilização do Operador AND ou '&&':
+
+	Promoção dia das Mães = IF('Cadastro Clientes'[Sexo]=="Feminino" && 'Cadastro Clientes'[Idade]>=50,"Sim","Não")
+	
+	ou
+
+	Promoção dia das Mães = IF(AND('Cadastro Clientes'[Sexo]=="Feminino",'Cadastro Clientes'[Idade]>=50),"Sim","Não")
 
 
 ---------------------------------------------------------------------------------------------------------
