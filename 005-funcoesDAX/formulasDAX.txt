@@ -141,3 +141,18 @@ Podemos utilizar a condicional IF no DAX, segue um exemplo:
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+13-funcaoIfComposta-aninhada
+
+Podemos utilizar a condicional IF no DAX também de forma composta(aninhada):
+
+	Exemplo:
+	Categoria de Cliente = IF('Cadastro Clientes'[Idade]>=60,"Categoria 1",
+    		IF('Cadastro Clientes'[Idade]>=45,"Categoria 2",
+        		IF('Cadastro Clientes'[Idade]>=30,"Categoria 3","Categoria 4")))
+
+Obs: A indentação é opcional e foi colocada apenas para melhorar o entendimento
+
+
+---------------------------------------------------------------------------------------------------------
