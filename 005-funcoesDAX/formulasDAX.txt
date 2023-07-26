@@ -222,4 +222,32 @@ A função LEFT faz um recorte no texto nos N primeiros caracteres de um texto, 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+23-funcoesRightEMiddle-aplicacao
+
+A função RIGHT faz um recorte no texto nos N últimos caracteres de um texto, onde N deve ser informado pelo usuário (caso não seja informado o default de N será igual a 1)
+
+	Exemplo, retornando o código do produto apenas com os números (ultimos 4 caracteres):
+
+	Numeração do Produto = RIGHT('Cadastro Produtos'[SKU],4)
+	(na falta do segundo argumento ele será considerado igual a 1)
+
+
+A função MID faz um recorte no texto nos caracteres em sequencia desejados conforme informados nos argumentos da função.
+
+	Exemplo, retornando o código do produto apenas com os números (conforme o exemplo anterior):
+
+	Numeração do Produto = MID('Cadastro Produtos'[SKU],3,4)
+	onde MID(Texto,Posição Caractere Inicial, Número de Caracteres)
+
+	**Observação: Podemos usar o argumento número de caracteres com um número MUITO grande caso desejarmos capturar o texto até o fim e o número de caracteres até o fim for desconhecido, ele vai capturar apenas até o último caractere do texto:
+
+	Exemplo:
+	
+	Numeração do Produto = MID('Cadastro Produtos'[SKU],3,1000)
+
+
+---------------------------------------------------------------------------------------------------------
+
 	
