@@ -263,3 +263,19 @@ Consegue transferir colunas de uma tabela para outra tabela, a formula RELATED S
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+26-funcaoSum
+
+Utilizada para fazer o somatorio dos valores de uma coluna, GERALMENTE seu resultado será uma medida, essa medida ficará atrelada a uma tabela e terá um icone de calculadora mostrando que é resultando de algum cálculo.
+
+	Exemplo:
+
+	Faturamento Total = SUM('Base Vendas 2016 - 2018'[Faturamento na Venda])
+
+	Obs: Podemos criar a medida também na aba 'Exibição de Relatório' clicando com o segundo botão do mouse na tabela de sejada e na opção 'Nova Medida'
+
+	Na aba 'Exibição de Dados' clicaremos com o segundo botão do mouse em qualquer coluna e iremos na opção 'Nova Medida' para criar uma nova medida
+
+
+---------------------------------------------------------------------------------------------------------
