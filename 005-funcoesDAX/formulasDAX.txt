@@ -250,4 +250,16 @@ A função MID faz um recorte no texto nos caracteres em sequencia desejados con
 
 ---------------------------------------------------------------------------------------------------------
 
+
+24-formulaRelated
+
+Consegue transferir colunas de uma tabela para outra tabela, a formula RELATED SÓ FUNCIONA se as tabelas estiverem relacionadas dentro do ambiente de relacionamento (aba exibição de modelo)
+
+	Exemplo:
 	
+	Preço do Produto = RELATED('Cadastro Produtos'[Preço Unitário])
+
+	Assim criaremos na Tabela de BaseVendas uma coluna com os preços dos produtos que estavam na tabela 'Cadastro Produtos'
+
+
+---------------------------------------------------------------------------------------------------------
