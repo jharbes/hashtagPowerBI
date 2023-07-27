@@ -323,3 +323,15 @@ Exemplo:
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+30-funcaoCount-parte1
+
+A fórmula COUNT conta os números de uma coluna, o que significa que ela somará +1 a cada célula da coluna que tiver valor NUMÉRICO, ou seja, só funciona para colunas NUMÉRICAS
+
+	Exemplo de uso:
+
+		Número de Vendas = COUNT('Base Vendas 2016 - 2018'[Tamanho Pedido])
+
+
+---------------------------------------------------------------------------------------------------------
