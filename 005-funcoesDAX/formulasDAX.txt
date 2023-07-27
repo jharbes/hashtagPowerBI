@@ -361,3 +361,15 @@ A fórmula DISTINCTCOUNT conta quantos VALORES DISTINTOS existem em uma coluna, 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+35-funcaoCountrows
+
+A fórmula COUNTROWS conta quantas LINHAS existem em uma TABELA. Ela faz o cálculo em função de tabela e não coluna
+
+	Exemplo de uso:
+
+		Número de Devoluções = COUNTROWS('Base Devoluções')
+
+
+---------------------------------------------------------------------------------------------------------
