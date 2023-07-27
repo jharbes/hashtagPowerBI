@@ -279,3 +279,21 @@ Utilizada para fazer o somatorio dos valores de uma coluna, GERALMENTE seu resul
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+27-funcoesDeDivisao-aplicandoMedidasEmMatrizes
+
+Por mais que a medida seja um único valor, ainda assim podemos utilizá-la para segregar seu valor em diversas categorias, como por exemplo na medida 'Faturamento Total' aplicar em linhas de uma matriz o 'Nome do Produto' para saber o valor do faturamento por cada produto vendido
+
+Como efetuar divisão:
+	
+	Exemplo:
+
+		Taxa de Devoluções = [Total de Devoluções] / [Total Pedidos]
+
+		ou
+
+		Taxa de Devoluções = DIVIDE([Total de Devoluções],[Total Pedidos])
+
+
+---------------------------------------------------------------------------------------------------------
