@@ -309,3 +309,17 @@ Exemplo:
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+29-funcoesMaxMin
+
+A funções MAX e MIN retornam respectivamente o Maior e Menor valor de um conjunto de dados
+
+Exemplo:
+
+	Máximo Faturado em Uma Venda = MAX('Base Vendas 2016 - 2018'[Faturamento na Venda])
+
+	Mínimo Faturado em Uma Venda = MIN('Base Vendas 2016 - 2018'[Faturamento na Venda])
+
+
+---------------------------------------------------------------------------------------------------------
