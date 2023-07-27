@@ -347,3 +347,17 @@ A fórmula COUNTA conta quantos VALORES existem em uma coluna, independente de s
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+34-funcaoDistinctcount
+
+A fórmula DISTINCTCOUNT conta quantos VALORES DISTINTOS existem em uma coluna, ou seja, sem considerar os repetidos.
+
+	Exemplo de uso:
+
+		Quantidade de Produtos Devolvidos = DISTINCTCOUNT('Base Devoluções'[SKU])
+
+	***OBSERVAÇÃO: Em algumas análises podemos necessitar consultar valores que não possuem valores listados ou 'sem valor', se for esse o caso temos que ir até o item dentro do campo/aba de 'Visualizações' -> 'Linhas' -> 'Opções' -> 'Mostrar itens sem dados'
+
+
+---------------------------------------------------------------------------------------------------------
