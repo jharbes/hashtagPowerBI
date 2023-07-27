@@ -297,3 +297,15 @@ Como efetuar divisão:
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+28-funcaoAverage
+
+Utilizamos a funcao Average para calcular e média de algum valor, como exemplo vamos calcular a média do número de produtos por devolução nas lojas:
+
+Exemplo:
+
+	Média de No de Produtos por Devolução = AVERAGE('Base Devoluções'[Quantidade Devolvida])
+
+
+---------------------------------------------------------------------------------------------------------
