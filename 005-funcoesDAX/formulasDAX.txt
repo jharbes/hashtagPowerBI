@@ -327,7 +327,7 @@ Exemplo:
 
 30-funcaoCount-parte1
 
-A fórmula COUNT conta os números de uma coluna, o que significa que ela somará +1 a cada célula da coluna que tiver valor NUMÉRICO, ou seja, só funciona para colunas NUMÉRICAS
+A fórmula COUNT conta os NÚMEROS de uma coluna, o que significa que ela somará +1 a cada célula da coluna que tiver valor NUMÉRICO, ou seja, só funciona para colunas NUMÉRICAS
 
 	Exemplo de uso:
 
