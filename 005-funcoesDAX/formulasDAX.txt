@@ -399,6 +399,8 @@ A fórmula Calculate efetua qualquer tipo de cálculo onde precisamos especifica
 
 		- CALCULATE(SUM('Base Devoluções'[Quantidade Devolvida]),'Base Devoluções[Loja] = "Rio de Janeiro")
 			- Calcula o total de devoluções feitas na Loja do Rio de Janeiro
-
+		
+		- Total Vendas de Celular = CALCULATE([Total Pedidos],'Cadastro Produtos'[Categoria] = "Celular")
+			- Nesse caso agora podemos estudar mais a fundo os dados das vendas de Celular, antes seria mais dificil efetuar esse estudo
 
 ---------------------------------------------------------------------------------------------------------
