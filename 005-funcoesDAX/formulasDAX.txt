@@ -373,3 +373,32 @@ A fórmula COUNTROWS conta quantas LINHAS existem em uma TABELA. Ela faz o cálc
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+36-formulaCalculate-parte1
+
+A fórmula Calculate efetua qualquer tipo de cálculo onde precisamos especificar um filtro ou um critério para que ela ocorra, como por exemplo o somatório de vendas do ano de 2017, ou o número de vendas do Vendedor João.
+
+=CALCULATE(Expressão, Filtro1, Filtro2, ...)
+
+	Expressão: Nome de uma medida que foi calculada ou uma Formula DAX
+		Exemplos:
+			- [Total Pedidos]
+			- SUM('Base Devoluções'[Quantidade Devolvida])
+
+	Filtros: Comparação simples (Verdadeiro/Falso) para filtrar a expressão (precisam ser valores simples e fixos, não é possível criar filtros a partir de medidas)
+		Exemplos:
+			- 'Base Devoluções'[Loja] = "Rio de Janeiro"
+			- 'Base Vendas 2016 - 2018'[Tamanho Pedido] >= 2
+			- 'Calendário'[Ano] > 2016
+
+	Exemplos CALCULATE:
+	
+		- CALCULATE([Total Pedidos],'Calendário'[Ano] > 2016)
+			- Calcula o total de pedidos feitos após o ano de 2016
+
+		- CALCULATE(SUM('Base Devoluções'[Quantidade Devolvida]),'Base Devoluções[Loja] = "Rio de Janeiro")
+			- Calcula o total de devoluções feitas na Loja do Rio de Janeiro
+
+
+---------------------------------------------------------------------------------------------------------
