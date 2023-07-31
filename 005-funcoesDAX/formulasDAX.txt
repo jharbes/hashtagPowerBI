@@ -404,3 +404,17 @@ A fórmula Calculate efetua qualquer tipo de cálculo onde precisamos especifica
 			- Nesse caso agora podemos estudar mais a fundo os dados das vendas de Celular, antes seria mais dificil efetuar esse estudo
 
 ---------------------------------------------------------------------------------------------------------
+
+
+40-formulaAll
+
+Retorna todas as linhas de uma tabela ou células de uma coluna, desconsiderando e ignorando qualquer filtro
+
+	= ALL(Tabela ou Coluna, [Coluna1], [Coluna2], ...)
+
+		- Observe que as opções em colchetes são opcionais
+		- Só pode adicionar novas colunas se o primeiro argumento também for uma coluna
+		- Todas as colunas precisam ser da mesma tabela
+
+
+---------------------------------------------------------------------------------------------------------
