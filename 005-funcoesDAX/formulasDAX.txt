@@ -434,3 +434,25 @@ Basicamente a função ALL FUNCIONA como um filtro, porém um filtro feito para 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+43-formulaFilter
+
+Retorna uma tabela de acordo com um filtro selecionado, a fórmula FILTER será utilizada como parametro da função CALCULATE
+	
+	= CALCULATE(Expressao,[Filtro1],...)
+		, onde [Filtro1] = FILTER(Tabela,Critério)
+
+	*** Filtro sem usar o FILTER: O filtro do calculate é um filtro comum (onde não está usando o FILTER), este filtro NÃO dá pra usar medidas, só expressões simples.
+
+	Ex: 'Base Devoluções'[Loja]="Rio de Janeiro
+		'Calendário'[Ano]>2016
+
+
+	*** Filtro usando o FILTER: pode usar tanto expressões simples quanto medidas
+
+	Ex:  'Base Vendas 2016 - 2018'[Faturamento de Vendas >= [Média de Faturamento]
+		'Base Devoluções'[Loja]="Rio de Janeiro"
+
+
+---------------------------------------------------------------------------------------------------------
