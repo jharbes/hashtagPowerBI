@@ -408,13 +408,25 @@ A fórmula Calculate efetua qualquer tipo de cálculo onde precisamos especifica
 
 40-formulaAll
 
-Retorna todas as linhas de uma tabela ou células de uma coluna, desconsiderando e ignorando qualquer filtro
+Retorna todas as linhas de uma tabela ou células de uma coluna, desconsiderando e ignorando qualquer filtro, a fórmula ALL será utilizado como parâmetro da função CALCULATE
 
 	= ALL(Tabela ou Coluna, [Coluna1], [Coluna2], ...)
 
 		- Observe que as opções em colchetes são opcionais
 		- Só pode adicionar novas colunas se o primeiro argumento também for uma coluna
 		- Todas as colunas precisam ser da mesma tabela
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+41-formulaCalculateEAll
+
+	Exemplo:
+		A fórmula ALL será utilizado como parâmetro da função CALCULATE
+
+		Total Pedidos (Absoluto) = CALCULATE([Total Pedidos],ALL('Base Vendas 2016 - 2018'))
+		calcula o total de pedidos valor absoluto , desconsiderando qualquer filtro imposto pela tabela 'Base Vendas 2016 - 2018'
 
 
 ---------------------------------------------------------------------------------------------------------
