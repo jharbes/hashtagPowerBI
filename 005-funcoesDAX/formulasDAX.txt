@@ -377,7 +377,7 @@ A fórmula COUNTROWS conta quantas LINHAS existem em uma TABELA. Ela faz o cálc
 
 36-formulaCalculate-parte1
 
-A fórmula Calculate efetua qualquer tipo de cálculo onde precisamos especificar um filtro ou um critério para que ela ocorra, como por exemplo o somatório de vendas do ano de 2017, ou o número de vendas do Vendedor João.
+A fórmula Calculate efetua qualquer tipo de cálculo onde precisamos especificar um FILTRO ou um critério para que ela ocorra, como por exemplo o somatório de vendas do ano de 2017, ou o número de vendas do Vendedor João.
 
 =CALCULATE(Expressão, Filtro1, Filtro2, ...)
 
@@ -428,7 +428,8 @@ Basicamente a função ALL FUNCIONA como um filtro, porém um filtro feito para 
 		A fórmula ALL será utilizada como parâmetro da função CALCULATE
 
 		Total Pedidos (Absoluto) = CALCULATE([Total Pedidos],ALL('Base Vendas 2016 - 2018'))
-		calcula o total de pedidos valor absoluto , desconsiderando qualquer filtro imposto pela tabela 'Base Vendas 2016 - 2018'
+
+		calcula o total de pedidos valor absoluto , desconsiderando qualquer filtro imposto pela tabela 'Base Vendas 2016 - 2018' ***IMPORTANTE para calculos em que precisamos referenciar o resultado a todos os valores da tabela e nao apenas aos que estão filtrados naquele momento***
 
 		Total Devoluções (Absoluto) = CALCULATE([Total de Devoluções],ALL('Base Devoluções'))
 
@@ -453,6 +454,11 @@ Retorna uma tabela de acordo com um filtro selecionado, a fórmula FILTER será 
 
 	Ex:  'Base Vendas 2016 - 2018'[Faturamento de Vendas >= [Média de Faturamento]
 		'Base Devoluções'[Loja]="Rio de Janeiro"
+
+	
+	Ex: Calculando o número de vendas que foram acima da média de faturamento por venda
+
+		Vendas Acima da Média = CALCULATE(COUNT('Base Vendas 2016 - 2018'[Tamanho Pedido]),FILTER('Base Vendas 2016 - 2018','Base Vendas 2016 - 2018'[Faturamento na Venda]>[Média Absoluta de Faturamento]))
 
 
 ---------------------------------------------------------------------------------------------------------
