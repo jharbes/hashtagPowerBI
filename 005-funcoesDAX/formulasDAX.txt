@@ -492,3 +492,12 @@ Também conhecidas como fórmulas X, fazem algum calculo linha por linha da tabe
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+50-funcaoMaxx
+
+	Exemplo:
+		Máximo Faturado em Uma Venda = MAXX('Base Vendas 2016 - 2018','Base Vendas 2016 - 2018'[Tamanho Pedido] * 'Base Vendas 2016 - 2018'[Preço do Produto])
+
+
+---------------------------------------------------------------------------------------------------------
