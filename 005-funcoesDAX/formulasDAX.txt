@@ -483,3 +483,12 @@ Também conhecidas como fórmulas X, fazem algum calculo linha por linha da tabe
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+49-funcaoAveragex
+
+	Exemplo:
+		Média de Faturamento por Venda = AVERAGEX('Base Vendas 2016 - 2018','Base Vendas 2016 - 2018'[Preço do Produto] * 'Base Vendas 2016 - 2018'[Tamanho Pedido])
+
+
+---------------------------------------------------------------------------------------------------------
