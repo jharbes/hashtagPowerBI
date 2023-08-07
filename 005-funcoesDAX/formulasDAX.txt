@@ -473,3 +473,13 @@ Também conhecidas como fórmulas X, fazem algum calculo linha por linha da tabe
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+48-funcaoSumx
+
+	Exemplo:
+		Faturamento Total = SUMX('Base Vendas 2016 - 2018','Base Vendas 2016 - 2018'[Tamanho Pedido] * 'Base Vendas 2016 - 2018'[Preço do Produto])
+		Observe que primeiramente ele vai multiplicar cada linha da coluna 'tamanho pedido' ao 'preço do produto' e depois disso fara a soma de cada dessa linhas dessa 'coluna' tamanho pedido * preço do produto
+
+
+---------------------------------------------------------------------------------------------------------
