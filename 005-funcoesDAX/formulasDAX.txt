@@ -462,3 +462,14 @@ Retorna uma tabela de acordo com um filtro selecionado, a fórmula FILTER será 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+47-funcoesIteradoras(X)-explicacao
+
+Também conhecidas como fórmulas X, fazem algum calculo linha por linha da tabela e depois aplicam alguma agregação (soma, máximo, mínimo, média, etc)
+
+	Exemplos:
+		=SUMX, =COUNTX, =AVERAGEX, =MAXX, =MINX , =RANKX
+
+
+---------------------------------------------------------------------------------------------------------
