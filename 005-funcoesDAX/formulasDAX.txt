@@ -514,7 +514,7 @@ Também conhecidas como fórmulas X, fazem algum calculo linha por linha da tabe
 
 54-inteligenciaDeTempo-funcaoDatesytd-acumuladoDoAno
 
-Utilizaremos a funcao DATESYTD para calcular o acumulado do ano do faturamento total para o mês em que estamos, isso significa que o resultado será o faturamento acumulado até o fim do mês em que nos encontramos
+Utilizaremos a funcao DATESYTD para calcular o acumulado do ano do faturamento total do ano para o mês em que estamos, isso significa que o resultado será o faturamento acumulado até o mês em que nos encontramos
 
 	Exemplo:
 		Janeiro 	= Janeiro
@@ -524,6 +524,17 @@ Utilizaremos a funcao DATESYTD para calcular o acumulado do ano do faturamento t
 
 	Para isso usaremos a formula:
 		Faturamento Acumulado do Ano = CALCULATE([Faturamento Total],DATESYTD('Calendário'[Data]))
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+55-inteligenciaDeTempo-funcaoDatesmtd-acumuladoDoMes
+
+A funcao DATESMTD funciona de maneira analoga à anterior (DATESYTD) porém teremos o valor acumulado do mês para o dia em que nos encontramos do mês (faturado do mês até aquele momento) 
+
+	Exemplo:
+		Total Pedidos Acumulado no Mês = CALCULATE([Total Pedidos],DATESMTD('Calendário'[Data]))
 
 
 ---------------------------------------------------------------------------------------------------------
