@@ -538,3 +538,16 @@ A funcao DATESMTD funciona de maneira analoga à anterior (DATESYTD) porém tere
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+56-inteligenciaDeTempo-funcaoDateadd-comparacaoEntrePeriodos
+
+A funcao DATEADD efetua uma comparacao entre periodos, entao ela sempre lancará o valor que foi configurado quando atrelado a um valor original
+
+	Exemplo:
+		Ano anterior , Mês anterior, Dia posterior, etc
+
+		Buscando informações acerca do faturamento do mês anterior sempre que um mês em questão for demonstrado:
+			Faturamento do Mês Anterior = CALCULATE([Faturamento Total],DATEADD('Calendário'[Data],-1,MONTH))
+	
+			onde -1 = periodo solicitado e MONTH unidade solicitado (o que quer dizer mês anterior)
