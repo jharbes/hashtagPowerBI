@@ -551,3 +551,24 @@ A funcao DATEADD efetua uma comparacao entre periodos, entao ela sempre lancará
 			Faturamento do Mês Anterior = CALCULATE([Faturamento Total],DATEADD('Calendário'[Data],-1,MONTH))
 	
 			onde -1 = periodo solicitado e MONTH unidade solicitado (o que quer dizer mês anterior)
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+57-inteligenciaDeTempo-funcaoDatesinperiod
+
+O objetivo dessa formula é efetuar o calculo do acumulado de alguma medida em um período específico, como por exemplo o acumulado das vendas nos ultimos 10 dias, nos ultimos 5 meses, etc
+
+	Exemplo:
+		15 dias de Faturamento = CALCULATE([Faturamento Total],DATESINPERIOD('Calendário'[Data],MAX('Calendário'[Data]),-15,DAY))
+
+		onde:
+		[Faturamento Total] = De qual medida queremos extrair os valores desejados
+		'Calendário'[Data] = De que tabela vamos retirar o período desejado
+		MAX(('Calendário'[Data]) = O ultimo dia do período que desejamos que seja considerado (start date que aqui na verdade utilizaremos o ultimo dia em vez do primeiro)
+		-15 = O período que desejamos que seja considerado (negativo pois o start date na verdade é o ultimo dia)
+		DAY = A medida referente ao -15 mencionado no argumento anterior (pode ser MONTH, YEAR, etc)
+
+
+---------------------------------------------------------------------------------------------------------
