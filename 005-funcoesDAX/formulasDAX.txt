@@ -8,10 +8,12 @@ Fórmulas DAX (Data Analysis Expressions | Expressões de Análise de Dados)
 Duas Maneiras de usar DAX:
 
 1- Colunas Calculadas
-	Vamos criar uma coluna gerada por meio de combinação de cálculos entre outra(s) tabela(s)
+	- Vamos criar uma coluna gerada por meio de combinação de cálculos entre outra(s) tabela(s)
+	- Só use colunas calculadas quando você quiser calcular um valor diferente para cada linha da tabela
 
 2- Medidas
-	Calculos feitos que não aparecem na tabela mas são usados nos relatórios
+	- Calculos feitos que não aparecem na tabela mas são usados nos relatórios
+	- Quando quiser fazer calculos simples, que retorna um único valor, como soma, média, contagem, etc. Use sempre uma medida.
 
 
 ---------------------------------------------------------------------------------------------------------
