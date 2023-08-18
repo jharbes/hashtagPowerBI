@@ -14,3 +14,12 @@ Podemos marcar a opção 'Bloquear objetos' para que se torne impossivel movimen
 
 
 ---------------------------------------------------------------------------------------------------------
+
+03-graficosDeBarras
+
+Uma boa prática para que seja melhor mostrado o gráfico de barras é ajustar os valores de máximo e mínimo para ficar em um intervalo de valores que facilite e melhore sua visualizacao, para isso vamos na aba 'Formatar seu visual' -> 'Visual' -> 'Eixo X/Eixo Y' e escolhemos a faixa de valor apropriado que comporte o menor e maior valor das informações
+
+Dicas de ferramentas (tooltip) - Essa opção está na aba 'Criar Visual' abaixo dos campos gerais de onde escolhemos os dados a serem mostrados em um gráfico, ele controla o hover dos dados (dados que aparecem quando passamos o mouse por cima), caso seja adicionado algum dado ele aparecerá quando passarmos o mouse por cima, já filtrado de acordo com o dado que for indicado pelo mouse.
+
+
+---------------------------------------------------------------------------------------------------------
