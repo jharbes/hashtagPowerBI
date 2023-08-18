@@ -36,3 +36,13 @@ Para formatacoes de graficos primeiramente faremos a seleção do grafico deseja
 
 
 ---------------------------------------------------------------------------------------------------------
+
+05-formatacaoCondicionalDoGrafico
+
+Podemos utilizar a formatacao condicional para que algumas informações sejam apresentadas de alguma maneira que dependa de outros fatores/variaveis, como por exemplo alterar a cor de uma barra de acordo com o valor de faturamento de um item.
+
+Exemplo:
+	Vamos à aba 'Visual' -> 'Barras' -> 'Cores' e clicamos no botão de 'função' (fx) para editar o comportamento que as cores devem ter em sua visualização
+
+
+---------------------------------------------------------------------------------------------------------
