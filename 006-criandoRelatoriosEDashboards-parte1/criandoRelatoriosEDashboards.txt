@@ -1,0 +1,16 @@
+Criando Relatórios e Dashboards
+---------------------------------------------------------------------------------------------------------
+
+02-inserindoObjetosSimples
+
+Inserindo imagens: Menu Superior -> 'Inserir' -> Imagem
+
+Mostrar linhas de grade podem ajudar a alinhar os objetivos para que eles fiquem paralelos ou na mesma altura, etc.
+Para isso vamos no Menu Superior -> 'Exibição' -> 'Linhas de Grade'
+
+Podemos também utilizar a opção de 'ajustar à grade' para que o objeto possa se movimentar apenas dentro das linhas da grade de maneira a facilitar a organização, para isso vamos em Menu Superior -> 'Exibição' -> 'Ajustar à grade'
+
+Podemos marcar a opção 'Bloquear objetos' para que se torne impossivel movimentar os objetos mantendo assim a configuração desejada, para isso vamos em Menu Superior -> 'Exibição' -> 'Bloquear objetos'
+
+
+---------------------------------------------------------------------------------------------------------
