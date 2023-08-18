@@ -23,3 +23,16 @@ Dicas de ferramentas (tooltip) - Essa opção está na aba 'Criar Visual' abaixo
 
 
 ---------------------------------------------------------------------------------------------------------
+
+04-formatacaoDeGrafico
+
+Para formatacoes de graficos primeiramente faremos a seleção do grafico desejado, depois iremos na aba 'Visualizações' -> 'Formatar o visual':
+
+	- As duas primeiras opções (Eixo X e Eixo Y) permitem que mostremos ou ocultemos os dados referentes ao eixo x e eixo y caso seja necessário.
+	- Na opção 'Eixo Y' -> 'Valores' -> 'Posição do eixo' poderemos alterar a posição dos dados do canto esquerdo para o canto direito e vice-versa.
+	- Na opção 'Eixo Y' -> 'Valores' podemos também alterar diversas opções em relação ao texto do eixo y (fonte, cor, etc) 
+	- Na opção 'Cores' podemos mudar as cores das barras
+	- Na opção 'Rótulo de Dados' vamos colocar o valor númerico ao lado de cada barra do gráfico, na opção 'Opções' escolhemos em que posição esses dados serão mostrados em relação à barra.
+
+
+---------------------------------------------------------------------------------------------------------
