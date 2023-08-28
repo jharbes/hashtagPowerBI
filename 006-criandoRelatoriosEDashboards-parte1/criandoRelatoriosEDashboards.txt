@@ -1,6 +1,7 @@
 Criando Relatórios e Dashboards
 ---------------------------------------------------------------------------------------------------------
 
+
 02-inserindoObjetosSimples
 
 Inserindo imagens: Menu Superior -> 'Inserir' -> Imagem
@@ -15,6 +16,7 @@ Podemos marcar a opção 'Bloquear objetos' para que se torne impossivel movimen
 
 ---------------------------------------------------------------------------------------------------------
 
+
 03-graficosDeBarras
 
 Uma boa prática para que seja melhor mostrado o gráfico de barras é ajustar os valores de máximo e mínimo para ficar em um intervalo de valores que facilite e melhore sua visualizacao, para isso vamos na aba 'Formatar seu visual' -> 'Visual' -> 'Eixo X/Eixo Y' e escolhemos a faixa de valor apropriado que comporte o menor e maior valor das informações
@@ -23,6 +25,7 @@ Dicas de ferramentas (tooltip) - Essa opção está na aba 'Criar Visual' abaixo
 
 
 ---------------------------------------------------------------------------------------------------------
+
 
 04-formatacaoDeGrafico
 
@@ -37,12 +40,23 @@ Para formatacoes de graficos primeiramente faremos a seleção do grafico deseja
 
 ---------------------------------------------------------------------------------------------------------
 
+
 05-formatacaoCondicionalDoGrafico
 
 Podemos utilizar a formatacao condicional para que algumas informações sejam apresentadas de alguma maneira que dependa de outros fatores/variaveis, como por exemplo alterar a cor de uma barra de acordo com o valor de faturamento de um item.
 
 Exemplo:
 	Vamos à aba 'Visual' -> 'Barras' -> 'Cores' e clicamos no botão de 'função' (fx) para editar o comportamento que as cores devem ter em sua visualização
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+06-graficoDeColunas
+
+Para criar graficos de colunas utilizamos a 4ª opcao da primeira linha de cima para baixo nas opções de visualizações
+
+Em geral ele vai ordenar as colunas do maior valor para o menor valor de acordo com as opções efetuadas, caso seja necessário alterar essa ordenação para outra como por exemplo ordem alfabética iremos nos três pontos (...) no canto superior a direita da própria figura , depois vamos em 'Classificar eixo' escolhendo a opção de preferência
 
 
 ---------------------------------------------------------------------------------------------------------
