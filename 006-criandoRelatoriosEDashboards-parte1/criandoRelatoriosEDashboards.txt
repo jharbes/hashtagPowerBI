@@ -60,3 +60,11 @@ Em geral ele vai ordenar as colunas do maior valor para o menor valor de acordo 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+07-graficoDeColunaEmpilhada
+
+Para criar graficos de colunas empilhadas utilizamos a 6ª opcao da primeira linha de cima para baixo nas opções de visualizações
+
+
+---------------------------------------------------------------------------------------------------------
