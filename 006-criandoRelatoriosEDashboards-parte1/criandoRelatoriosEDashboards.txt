@@ -74,3 +74,19 @@ Isso garantirá que o mês, mesmo que representado pelo seu nome, fique a ordem 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+08-graficoDeColunaEmpilhada-parte2
+
+Agora vamos dividir o faturamento do grafico entre 2016,2017 e 2018 (antes estavam todos agrupados em uma barra só)
+
+Para isso teremos que criar uma medida para cada ano de faturamento da seguinte maneira:
+
+	Faturamento 2016 = CALCULATE([Faturamento Total],'Calendário'[Ano]=2016)
+	Faturamento 2017 = CALCULATE([Faturamento Total],'Calendário'[Ano]=2017)
+	Faturamento 2018 = CALCULATE([Faturamento Total],'Calendário'[Ano]=2018)
+
+Sendo assim basta substituir a medida 'Faturamento Total' por estas tres novas medidas criadas no eixo Y
+
+
+---------------------------------------------------------------------------------------------------------
