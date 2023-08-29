@@ -62,9 +62,15 @@ Em geral ele vai ordenar as colunas do maior valor para o menor valor de acordo 
 ---------------------------------------------------------------------------------------------------------
 
 
-07-graficoDeColunaEmpilhada
+07-graficoDeColunaEmpilhada (não é a 100% empilhadas)
 
-Para criar graficos de colunas empilhadas utilizamos a 6ª opcao da primeira linha de cima para baixo nas opções de visualizações
+Para criar graficos de colunas empilhadas utilizamos a 2ª opcao da primeira linha de cima para baixo nas opções de visualizações
+
+*** ORDERNAÇÃO DE GRAFICO POR ORDEM CRONOLOGICA (MESES EM ORDEM DE JANEIRO A DEZEMBRO)
+
+Vamos na aba 'Exibição de dados' no menu lateral esquerdo, lá vamos clicar na coluna 'Nome do Mês', depois no Menu Superior em 'Ferramentas de coluna' -> 'Classificar por coluna' -> 'Mês', o que fizemos aqui foi ALTERAR O CRITÉRIO de ordenação de 'Nome do Mês' para 'Mês' (onde este último usa o número do mês como critério para classificação)
+
+Isso garantirá que o mês, mesmo que representado pelo seu nome, fique a ordem de seus números nos gráficos: janeiro, fevereiro, março...	
 
 
 ---------------------------------------------------------------------------------------------------------
