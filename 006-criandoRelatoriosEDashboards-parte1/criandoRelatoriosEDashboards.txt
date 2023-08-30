@@ -123,3 +123,15 @@ Na mesma opçao de 'Produtos' na aba de FILTROS teremos três opções básicas 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+11-filtrosDePagina
+
+Filtros de página consiste em um filtro único que funcionará para todos os gráficos da página/aba do dashboard.
+
+Para utilizá-lo iremos na aba a direita 'Filtros' na opção 'Filtros nesta página' e adicionaremos no campo em questão o tipo de informação para o qual desejamos aplicar filtros, assim que isso for feito poderemos escolher cada opção dentre a opção incluída e ela filtrará para todos os gráficos da página/aba mostrando apenas a informação desejada.
+
+Nesta opção teremos disponíveis as opções de 'Filtragem básica' e Filtragem avançada' funcionando da mesma maneira que na opção de 'Filtros neste visual' mencionada na opção acima.
+
+
+---------------------------------------------------------------------------------------------------------
