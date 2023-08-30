@@ -90,3 +90,11 @@ Sendo assim basta substituir a medida 'Faturamento Total' por estas tres novas m
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+09-filtrosDeNivelVisual-parte1
+
+Podemos criar mais uma visualização para o mesmo gráfico, como mostrar o faturamento tanto para cada 'produto' como para cada 'categoria' de produto, para isso basta incluirmos a nova opçao juntamente com a outra no mesmo eixo (X ou Y) e alterar a visualização por meio das setas que constam no filtro da figura (seta para cima ou duas setas para baixo) que constam no canto superior a direita da propria figura (grafico) em questao
+
+
+---------------------------------------------------------------------------------------------------------
