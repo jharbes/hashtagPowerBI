@@ -135,3 +135,13 @@ Nesta opção teremos disponíveis as opções de 'Filtragem básica' e Filtrage
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+12-filtrosDeRelatorio
+
+'Filtros de nível de relatório' ou 'Filtros em todas as páginas'(na nova versão do PowerBI) consiste no filtro que funcionará em TODOS os gráficos de TODAS as abas/páginas do dashboard.
+
+Seu funcionamento segue a mesma lógica do 'Filtro de página'
+
+
+---------------------------------------------------------------------------------------------------------
