@@ -145,3 +145,20 @@ Seu funcionamento segue a mesma lógica do 'Filtro de página'
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+13-segmentacaoDeDados
+
+Para incluir uma 'Segmentação de Dados' vamos na aba 'Visualizações' nos ícones dos gráficos, na primeira opção da 4ª linha de cima para baixo.
+
+Utilizando esta opção será criada um campo de filtro que funcionará para TODOS os gráficos presentes na página/aba onde constará todas as opções disponíveis para o filtro que foi desejado, como por exemplo adicionamos a opçao 'Estado' e assim poderemos filtrar por cada UF apenas as informações pertinentes àqueles estados.
+
+Para selecionar mais de uma opção do filtro por vez basta SEGURAR a tecla CTRL enquanto clicamos, caso contrario será possivel selecionar apenas uma opção
+
+Podemos alterar as configurações iniciais desse filtro, para isso selecionamos a caixa de segmentação de dados desejada e vamos em 'Visualizações' -> 'Formatar seu visual' -> 'Configuração da segmentação'
+
+Por padrão a segmentação de dados funciona APENAS para a página onde ele se encontra, para que isso seja alterado contemplado outras páginas ou a página que está sendo visualizada faremos o seguinte: Selecionaremos o item de 'Segmentação de Dados' desejado, iremos no Menu Superior -> 'Exibição' -> 'Segmentações de dados de sincronização'. Será aberta uma nova aba onde poderemos escolher as opções desejadas. 
+A opção do OLHO serve para dizer em qual das abas gostariamos que aparecesse a segmentação de dados em questão.
+
+
+---------------------------------------------------------------------------------------------------------
