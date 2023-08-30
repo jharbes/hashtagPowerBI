@@ -98,3 +98,28 @@ Podemos criar mais uma visualização para o mesmo gráfico, como mostrar o fatu
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+10-filtrosDeNivelVisual-parte2
+
+Utilizando a aba FILTROS do PowerBI:
+
+Podemos utilizar a aba FILTROS (fica à direita do Dashboard) para termos mais opcoes de filtros. Podemos por exemplo em um grafico de Faturamento x Produto irmos na opcao 'Produto' e escolhermos apenas os produtos que gostariamos de ver no grafico isolando eles, em vez de ter que ver todos os produtos disponiveis na empresa.
+
+Existem três níveis de filtros:
+
+	Filtros neste visual: Funciona apenas no gráfico selecionado.
+
+	Filtros nesta página: Funciona em todos os gráficos da PÁGINA ou ABA.
+
+	Filtros em todas as páginas: Funciona em TODAS as páginas/abas do Dashboard (caso tenha mais de uma)
+
+
+Na mesma opçao de 'Produtos' na aba de FILTROS teremos três opções básicas na opção 'Tipo de Filtro' que são 'Filtragem básica', 'Filtragem avançada' e 'N superior'
+
+'N superior' : Cria filtros em que podemos combinar os maiores ou menores em cada quesito de acordo com algum tipo de fator, por exemplo os 5 produtos de maior faturamento, para isso usaremos a opçao 'Mostrar itens' em 'Superior' e o numero 5 ao lado. No campo 'Por valor' puxaremos o Dado 'Faturamento Total' para que o filtro seja por faturamento
+
+'Filtragem avançada' : Cria filtros de acordo com alguns parametros como possui algum texto no nome de um produto, não contém, começa por, não começa por, é igual, está em branco, não está em branco, está vazio, não está vazio.. podendo também ser aplicados os conectores E ou OU
+
+
+---------------------------------------------------------------------------------------------------------
