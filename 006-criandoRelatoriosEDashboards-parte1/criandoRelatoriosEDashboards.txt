@@ -172,3 +172,19 @@ Após adicionarmos a informaçao desejada podemos aplicar filtros nela, para iss
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+15-kpi-parte1 (key performance indicator)
+
+Para utilizar o KPI iremos na aba 'Visualizações' e nos icones escolheremos a última opção da 4a linha de cima para baixo.
+
+Eles precisam de tres informações: Valor, Eixo da tendência e Destino
+
+Valor: Qual valor deve ser analisado: Faturamento, Devoluções, Total de pedidos, etc
+
+Eixo da tendência: Datas que devem ser analisadas (datas, meses, anos, etc)
+
+Destino: Meta de destino , qual valor deve estar naquele momento, se for maior que a meta estará OK caso contrario Não, em geral uma cor vai informar se estiver OK na meta ou não
+
+
+---------------------------------------------------------------------------------------------------------
