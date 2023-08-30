@@ -162,3 +162,13 @@ A opção do OLHO serve para dizer em qual das abas gostariamos que aparecesse a
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+14-cartoesNoPowerBI
+
+Utilizamos o cartao para que alguma informação fique bem evidenciada dentre as outras do dashboard.
+
+Após adicionarmos a informaçao desejada podemos aplicar filtros nela, para isso vamos na aba 'Filtros' a direita do dashboard após selecionar o cartão e incluiremos o item desejado para ser aplicado o filtro, logo depois faremos a filtragem necessária conforme já mencionado procedimento para itens de 'Filtros neste visual'
+
+
+---------------------------------------------------------------------------------------------------------
