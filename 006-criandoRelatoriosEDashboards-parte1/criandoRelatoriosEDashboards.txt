@@ -220,3 +220,13 @@ Indica-se utilizar o rótulo de dados para esse tipo de grafico de modo a tornar
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+20-grafico_de_funil
+
+Semelhante ao gráfico de barras, porém seu formato assemelha-se a um funil, de onde sai se nome.
+
+Para utilizarmos ele vamos na opção 'Funil' na aba de 'Visualizações'
+
+
+---------------------------------------------------------------------------------------------------------
