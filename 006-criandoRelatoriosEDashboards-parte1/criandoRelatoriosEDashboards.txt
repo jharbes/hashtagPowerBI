@@ -238,3 +238,15 @@ Funciona com a mesma mecânica do grafico de árvore ou 'Treemap'
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+22-grafico_de_velocimetro
+
+O gráfico de velocimetro aparece com o nome de 'Indicador' no Power BI
+
+Ele funciona fazendo uma comparação, estabeleceremos uma medida que será o valor atual e colocaremos um valor para ser a 'meta'
+
+Sempre por padrão ao adicionar um valor ele colocará o minimo como zero(0) e o máximo como duas vezes o total do valor adicionado.
+
+
+---------------------------------------------------------------------------------------------------------
