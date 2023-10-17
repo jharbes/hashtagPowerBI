@@ -210,3 +210,13 @@ Incluiremos um par de valor para acompanhar a evolução de valor em relação a
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+19-grafico_de_arvore
+
+Aparece no PowerBI como 'Treemap', seu desenho é do de vários retangulos, quando relacionarmos duas medidas como por exemplo 'Produto' e 'Total de Vendas' cada figura corresponderá a um produto e o valor da área de cada um deles corresponde ao valor de vendas de cada produto.
+
+Indica-se utilizar o rótulo de dados para esse tipo de grafico de modo a tornar mais visivel a diferença entre os valores de cada produto.
+
+
+---------------------------------------------------------------------------------------------------------
