@@ -188,3 +188,15 @@ Destino: Meta de destino , qual valor deve estar naquele momento, se for maior q
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+16-graficos_de_mapa
+
+Podemos utilizar os gráficos de mapa nas opções 'Mapa' ou 'Mapa Organoléptico'
+
+Colocaremos o item de localização na aba Visualizações, opção 'Localização', como por exemplo uma 'Loja' que seja objeto de análise, isso vai localizar os itens a serem estudados dentro do mapa.
+
+Na opção 'Tamanho da Bolha' faremos com que a bola que representa o local aumente ou diminua de acordo com o valor a ser referendado, como por exemplo 'Média de Faturamento'
+
+
+---------------------------------------------------------------------------------------------------------
