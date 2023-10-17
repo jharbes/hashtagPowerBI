@@ -230,3 +230,11 @@ Para utilizarmos ele vamos na opção 'Funil' na aba de 'Visualizações'
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+21-grafico_de_rosca_e_pizza
+
+Funciona com a mesma mecânica do grafico de árvore ou 'Treemap'
+
+
+---------------------------------------------------------------------------------------------------------
