@@ -250,3 +250,16 @@ Sempre por padrão ao adicionar um valor ele colocará o minimo como zero(0) e o
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+23-finalizando_o_dashboard-parte1
+
+Para adicionar um CARD onde conste o primeiro valor de alguma medida faremos o seguinte:
+
+Criaremos o CARD depois em 'Campos' colocaremos o que desejamos medir, no caso podemos usar o 'Produto' porque queremos o produto com o maior numero de devolucoes
+
+Depois, em filtros, incluiremos 'Produto' novamente em 'Filtros neste visual' -> Tipo de filtro: 'N superior' ->
+'Mostrar itens' colocaremos em superior e o número 1 , depois em 'Por valor' arrastaremos a medida 'Total de Devoluções'
+
+
+---------------------------------------------------------------------------------------------------------
