@@ -283,3 +283,15 @@ Para utilizarmos o botão seguramos a tecla CTRL e clicamos no botão
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+30-editando_interacoes_do_relatorio-parte1
+
+Podemos editar as interações entre os gráficos do relatório do PowerBI, isso funciona para que um clique em um item de um gráfico não necessariamente influencie os outros gráficos do mesmo relatório já que esse é o funcionamento padrão.
+
+Para isso clicaremos no gráfico desejado e iremos em 'Menu Superior' -> 'Formato' -> 'Editar interações' -> Clicaremos no circulo riscado correspondente ao gráfico que não deverá mais responder aos filtros do gráfico de origem onde editamos as interações
+
+OBS: Alguns gráficos não respondem aos filtros de outros por default, isso vai depender das variáveis que ele manipula ter alguma relação em comum com o outro gráfico.
+
+
+---------------------------------------------------------------------------------------------------------
