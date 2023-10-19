@@ -291,7 +291,19 @@ Podemos editar as interações entre os gráficos do relatório do PowerBI, isso
 
 Para isso clicaremos no gráfico desejado e iremos em 'Menu Superior' -> 'Formato' -> 'Editar interações' -> Clicaremos no circulo riscado correspondente ao gráfico que não deverá mais responder aos filtros do gráfico de origem onde editamos as interações
 
-OBS: Alguns gráficos não respondem aos filtros de outros por default, isso vai depender das variáveis que ele manipula ter alguma relação em comum com o outro gráfico.
+OBS: Alguns gráficos podem estar muito colados em outros de maneira que o ícone de bloqueio esteja ocultro atrás do outro gráfico próximo, nesse caso movemos ou reduzimos um dos gráficos, clicamos no ícone para bloquear as alterações do gráfico e colocamos o gráfico no local de volta de origem
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+31-editando_interacoes_do_relatorio-parte2
+
+Também temos o realce como opção de filtro, ou seja, trata-se de uma opção em que ao clicar em algum filtro do primeiro gráfico ele realça em um segundo gráfico o que nesse segundo está referendendo o filtro do primeiro e não apenas excluindo tudo e mostrando apenas no segundo gráfico o que foi filtrado no primeiro.
+
+Para optarmos entre as opções faremos novamente como o item anterior, clicaremos no primeiro gráfico (origem do filtro) iremos em 'Menu Superior' -> 'Formato' -> 'Editar Interações' e no segundo gráfico escolheremos entre três opções para refletir a opção de filtro do primeiro gráfico: 'Filtrar', 'Realçar' ou 'Bloqueio'
+
+Alterar a opção de 'Realçar' para 'Filtrar' em muitos casos irá melhorar a disposição dos dados pois manterá apenas os dados escolhidos no segundo gráfico e não manterá todos e dará realce para os dados escolhidos, o que muitas vezes mantem o grafico poluido e pouco informativo
 
 
 ---------------------------------------------------------------------------------------------------------
