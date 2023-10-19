@@ -263,3 +263,23 @@ Depois, em filtros, incluiremos 'Produto' novamente em 'Filtros neste visual' ->
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+29-criando_hiperlinks
+
+Hiperlinks são botões que podemos clicar para mudar de um relatório para outro (abas)
+
+Para inserir o botão vamos no 'Menu Superior' -> 'Inserir' -> 'Botões' e escolhemos o tipo de botão de nossa preferencia
+
+É interessante inserir uma 'Caixa de texto' para servir como legenda do botão (explicar o que ele faz), para isso vamos em 'Menu Superior' -> 'Inserir' -> 'Caixa de texto'
+
+Para configurar a ação que o botão deve fazer clicamos em cima dele e no Menu Lateral a Direita vamos na aba 'Formato' -> 'Botão' -> 'Ação' -> 'Tipo' -> 'Indicador'
+
+Para que os indicadores funcionem precisamos ir no 'Menu Superior' -> 'Exibição -> 'Indicadores' e ao Adicionar ele ja adicionará a aba atual como o indicador, é bom renomeá-lo para o nome da aba para tornar mais intuitivo
+
+Sendo assim adicionaremos esse indicador na área de ação do Botão para que ele possa ser direcionado
+
+Para utilizarmos o botão seguramos a tecla CTRL e clicamos no botão
+
+
+---------------------------------------------------------------------------------------------------------
