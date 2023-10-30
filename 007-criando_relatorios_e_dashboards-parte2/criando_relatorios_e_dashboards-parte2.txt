@@ -13,4 +13,7 @@ Para mudar as cores e propriedades do retangulo por cima da imagem clicaremos co
 
 Para pintar a forma iremos no 'Menu Superior' -> 'Formato da Forma/Shape Format' -> 'Preenchimento da Forma/Shape Fill' e escolher a cor
 
-Depois podemos inserir caixas de texto, para isso iremos em Menu Superior -> 'Inserir/Insert' -> 'Caixa de Texto/Text Box' -> 
+Depois podemos inserir caixas de texto, para isso iremos em Menu Superior -> 'Inserir/Insert' -> 'Caixa de Texto/Text Box' e escrever o que for necessário nas text box
+
+Podemos incluir também ícones em nosso menu inicial, para isso o ideal é irmos no site flaticon.com e procurar pelos icones desejados, caso seja necessário mudar a cor podemos ir nas opções de cada um e escolher a cor desejada.
+Após baixar a imagem para inserir elas no powerpoint iremos no 'Menu Superior' -> 'Insert/Inserir' -> 'Imagens/Pictures'
