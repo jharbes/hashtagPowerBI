@@ -1,0 +1,7 @@
+Criando Relatórios e Dashboards - Parte 2
+---------------------------------------------------------------------------------------------------------
+
+02-contruindo_o_layout_no_powerpoint
+
+Primeiramente podemos baixar no google uma imagem para servir de fundo em nosso Menu do PowerBI, salvamos com extensão .jpg
+
