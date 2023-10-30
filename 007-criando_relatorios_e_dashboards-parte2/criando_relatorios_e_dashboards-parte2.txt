@@ -5,3 +5,12 @@ Criando Relatórios e Dashboards - Parte 2
 
 Primeiramente podemos baixar no google uma imagem para servir de fundo em nosso Menu do PowerBI, salvamos com extensão .jpg
 
+Depois abriremos o powerpoint e criaremos um slide em branco, iremo em 'Menu Superior' -> 'Insert/Inserir' -> 'Imagem/Pictures' e faremos a inserção da imagem escolhida, após isso colocaremos a imagem do tamanho da página (primeira página)
+
+Depois para criar o efeito 'esfumaçado' ou 'embaçado' criaremos uma forma de retângulo e colocaremos por cima da imagem, para isso vamos em Menu Superior -> 'Insert/Inserir' -> 'Formas/Shapes' ->'Retangulo/Rectangle' e expandiremos o retangulo até que ele cubra toda a imagem/pagina
+
+Para mudar as cores e propriedades do retangulo por cima da imagem clicaremos com o segundo botão do mouse e iremos na opção 'Formatar Forma/Format Shape' -> 'Opções de Forma/Shape Options' -> 'Preenchimento/Fill' -> 'Transparencia/Transparency' -> ~12%
+
+Para pintar a forma iremos no 'Menu Superior' -> 'Formato da Forma/Shape Format' -> 'Preenchimento da Forma/Shape Fill' e escolher a cor
+
+Depois podemos inserir caixas de texto, para isso iremos em Menu Superior -> 'Inserir/Insert' -> 'Caixa de Texto/Text Box' -> 
