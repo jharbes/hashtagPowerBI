@@ -1,6 +1,7 @@
 Criando Relatórios e Dashboards - Parte 2
 ---------------------------------------------------------------------------------------------------------
 
+
 02-contruindo_o_layout_no_powerpoint
 
 Primeiramente podemos baixar no google uma imagem para servir de fundo em nosso Menu do PowerBI, salvamos com extensão .jpg
@@ -17,3 +18,22 @@ Depois podemos inserir caixas de texto, para isso iremos em Menu Superior -> 'In
 
 Podemos incluir também ícones em nosso menu inicial, para isso o ideal é irmos no site flaticon.com e procurar pelos icones desejados, caso seja necessário mudar a cor podemos ir nas opções de cada um e escolher a cor desejada.
 Após baixar a imagem para inserir elas no powerpoint iremos no 'Menu Superior' -> 'Insert/Inserir' -> 'Imagens/Pictures'
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+03-construindo_o_layout_no_powerpoint-parte2
+
+Agora vamos criar layouts para serem usados para os graficos em si, onde montaremos os graficos posteriormente do powerbi, funcionarão como molduras.
+
+Vamos inserir uma barra na parte superior do slide para servir de titulo, para isso iremos em 'Menu Superior' -> 'Formas/Shapes' -> 'Retangulo/Rectangle' e faremos a inserção como se fosse um menu superior
+
+Pelo mesmo processo incluiremos uma linha mais fina um pouco abaixo da barra na parte superior
+
+Depois disso faremos uma cópia do logo da primeira página para a segunda com CTRL + C e CTRL + V
+
+Logo então faremos a inserção das formas no power point onde depois ficaram cada um de nossos gráficos do power bi.
+
+
+---------------------------------------------------------------------------------------------------------
