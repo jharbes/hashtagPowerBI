@@ -37,3 +37,17 @@ Logo então faremos a inserção das formas no power point onde depois ficaram c
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+04-construindo_o_layout_no_powerpoint-parte3
+
+Primeiramente importante saber que podemos colocar algumas imagens por cima de outras de acordo com a necessidade, para fazer isso clicaremos na imagem e no 'Menu Superior' -> 'Formato de Forma/Shape Format' -> 'Avançar/Bring Forward' -> 'Avançar/Bring Forward'
+
+Outro detalhe é que o contorno das formas geralmente fica em uma cor diferente da cor da própria forma, para acertar isso (caso seja do interesse) clicaremos na forma e iremos em 'Menu Superior' -> 'Formato da Forma/Shape Format' -> 'Contorno da Forma/Shape Outline' e escolheremos a cor desejada (pode ser a cor da própria forma que em geral está no campo 'Cores usadas recentemente')
+
+Ao criarmos várias formas que seja necessário alinhá-las vertical e horizontalmente podemos seguir os seguintes passos: selecionamos todas vamos em 'Menu Superior' -> 'Formato de Forma/Shape Format' -> 'Centralizar/Align Center', feito isso as figuras estarão alinhadas horizontalmente, poderemos arrastá-las para o local desejado.
+
+Para alinhá-las verticalmente selecionaremos novamente todas elas, iremos em 'Menu Superior' -> 'Formato de Forma/Shape Format' -> 'Distribuir Verticalmente/Distribute Vertically'
+
+
+---------------------------------------------------------------------------------------------------------
