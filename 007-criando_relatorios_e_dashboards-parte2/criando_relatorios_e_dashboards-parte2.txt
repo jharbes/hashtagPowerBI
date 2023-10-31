@@ -51,3 +51,13 @@ Para alinhá-las verticalmente selecionaremos novamente todas elas, iremos em 'M
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+05-preparando_o_layout_do_relatorio_no_powerbi
+
+Ao criarmos os layouts de papel de parede no powerpoint teremos que salvar eles como imagem para serem utilizados no power bi.
+
+Para isso iremos no powerpoint no 'Menu Superior' -> 'Arquivo/File' -> 'Salvar Como/Save As' e salvar TODOS os slides como PNG
+
+
+---------------------------------------------------------------------------------------------------------
