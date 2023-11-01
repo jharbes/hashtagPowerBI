@@ -97,3 +97,13 @@ Isso garantirá que o mês, mesmo que representado pelo seu nome, fique a ordem 
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+12-formatacao_condicional_de_grafico
+
+Para criar a formatação condicional em função da COR escolheremos o gráfico no dashboard, iremos na aba 'Visualizações' -> 'Formatar o Visual' -> 'Cores' -> 'Botão de função fx'
+
+Aí escolheremos qual a medida desejamos utilizar para a formatação condicional, fazendo com que troque a cor da barra do gráfico de acordo com o valor que essa medida seja de acordo com a opção
+
+
+---------------------------------------------------------------------------------------------------------
