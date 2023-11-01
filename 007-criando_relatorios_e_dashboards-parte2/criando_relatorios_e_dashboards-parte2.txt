@@ -62,5 +62,16 @@ Para isso iremos no powerpoint no 'Menu Superior' -> 'Arquivo/File' -> 'Salvar C
 Para inserir um papel de parede criaremos um pagina em branco no PowerBI, iremos na aba 'Visualizações' -> 'Formato da Página' -> 'Tela de fundo' -> 'Imagem'. Observe que normalmente a transparencia fica setada em 100% tornado a imagem invisivel, para corrigir acertar a transparencia para 0%
 
 
+---------------------------------------------------------------------------------------------------------
+
+
+06-criando_as_medidas_e_cartoes-parte1
+
+BOAS PRÁTICAS:
+Ao criar medidas é desejável criar uma nova Tabela para incluir TODAS as medidas vinculadas a apenas uma tabela de modo a facilitar e centralizar seu uso.
+Para criar a nova tabela iremos em 'Menu Superior' -> 'Pagina Inicial' -> 'Inserir dados' -> (nome Medidas ou algo que seja intuitivo)
+
+Para criar as novas medidas iremos na tabela 'Medidas' clicaremos com o segundo botão do mouse e iremos em 'Nova medida'
+
 
 ---------------------------------------------------------------------------------------------------------
