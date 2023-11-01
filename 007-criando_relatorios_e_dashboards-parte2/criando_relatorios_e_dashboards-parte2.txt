@@ -59,5 +59,8 @@ Ao criarmos os layouts de papel de parede no powerpoint teremos que salvar eles 
 
 Para isso iremos no powerpoint no 'Menu Superior' -> 'Arquivo/File' -> 'Salvar Como/Save As' e salvar TODOS os slides como PNG
 
+Para inserir um papel de parede criaremos um pagina em branco no PowerBI, iremos na aba 'Visualizações' -> 'Formato da Página' -> 'Tela de fundo' -> 'Imagem'. Observe que normalmente a transparencia fica setada em 100% tornado a imagem invisivel, para corrigir acertar a transparencia para 0%
+
+
 
 ---------------------------------------------------------------------------------------------------------
