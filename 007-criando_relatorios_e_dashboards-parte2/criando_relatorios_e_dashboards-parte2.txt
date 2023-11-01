@@ -107,3 +107,15 @@ Aí escolheremos qual a medida desejamos utilizar para a formatação condiciona
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+13-grafico_de_arvore_e_filtro_top_n
+
+Primeiro incluiremos o gráfico 'Treemap' que está na aba 'Visualizações'
+
+Clicaremos no gráfico e incluiremos a medida 'Total de Pedidos' no campo 'Valores' na aba 'Visualizações', depois incluiremos a coluna 'Nome Completo' da tabela 'Clientes' no campo 'Categoria' na aba visualizações
+
+Para filtrar os 5 primeiros em número de pedidos iremos na aba 'Filtros' em 'Filtros neste visual' (funciona apenas naquele gráfico) na parte direita incluiremos em 'Adicionar campos...' o Código do Cliente, pois usar o nome pode gerar problemas devido a homonimos, seguindo colocaremos o tipo de filtro 'N superior' -> 'Mostrar itens' -> '5' e no campo 'Por valor' incluiremos a medida 'Total Pedidos'
+
+
+---------------------------------------------------------------------------------------------------------
