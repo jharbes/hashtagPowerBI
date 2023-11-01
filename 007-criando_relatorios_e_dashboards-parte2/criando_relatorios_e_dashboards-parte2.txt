@@ -77,7 +77,7 @@ Para criar as novas medidas iremos na tabela 'Medidas' clicaremos com o segundo 
 ---------------------------------------------------------------------------------------------------------
 
 
-06-criando_as_medidas_e_cartoes-parte2
+07-criando_as_medidas_e_cartoes-parte2
  
 Para FORMATAR a medida para por exemplo aparecer como moeda devemos CLICAR NA MEDIDA no Menu Lateral Direito, ir em 'Menu Superior' -> 'Ferramentas de Medida' -> 'Formato' -> 'Moeda'. Caso seja necessário escolher uma moeda específica como Real ou Dollar clicaremos no símbolo de '$' e escolhemos a moeda (Real aparece na letra P em português)
 
