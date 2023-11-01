@@ -1,5 +1,9 @@
 Fórmulas DAX (Data Analysis Expressions | Expressões de Análise de Dados)
 
+DICAS:
+
+- Se o auto complete do DAX não estiver funcionando apertar SHIFT + <seta para baixo> no campo de formulas
+
 ---------------------------------------------------------------------------------------------------------
 
 
