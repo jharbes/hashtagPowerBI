@@ -133,3 +133,13 @@ Para evitar o uso das colunas não indicadas podemos ocultá-las da aba de visua
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+15-grafico_de_coluna
+
+Para adicionar o gráfico de coluna iremos na aba 'Visualizações' e escolhemos o gráfico 'Gráfico de colunas empilhadas'
+
+Selecionaremos a medida 'Lucro Total' para o eixo Y e a coluna 'Marca' da Tabela 'Produtos' para podermos analisar o lucro recebido por cada marca. A tabela inicialmente vai mostrar as marcas em ordem descrescente de lucro, para alteramos para ordem alfabética teremos que ir no canto superior direito do próprio gráfico nos icone dos três pontinhos (...) -> 'Classificar eixo' -> 'Marca' e depois escolher a opção 'Em ordem crescente'
+
+
+---------------------------------------------------------------------------------------------------------
