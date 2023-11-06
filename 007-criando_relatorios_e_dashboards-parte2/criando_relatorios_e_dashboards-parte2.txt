@@ -119,3 +119,17 @@ Para filtrar os 5 primeiros em número de pedidos iremos na aba 'Filtros' em 'Fi
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+14-grafico_de_mapa
+
+Para incluir o grafico de Mapa vamos na aba a direita de 'Visualizações' e escolhemos o gráfico que possui desenho de um globo terrestre
+
+Precisamos colocar na opção 'Localização' da aba 'Visualizações' as colunas referentes aos locais que serão apontados no mapa (cidades, estados, etc) e no 'Tamanho da bolha' as medidas/colunas que informam o que queremos diferenciar por meio do tamanho do circulo que está na localizacao (faturamento, numero de clientes, etc)
+
+Importante sempre utilizar preencher a aba 'Localizações' com as informações da tabelas características (como Lojas) e não tabelas fatos, caso seja feito com algum item da tabela fatos ele só terá interação nos outros campos do dashboard com os itens que tiverem relação COM AQUELA TABELA FATO e NÃO COM AS OUTRAS TABELAS FATOS, o motivo de que isso acontece é que NÃO EXISTE RELACIONAMENTO ENTRE DIFERENTES TABELAS FATOS.
+
+Para evitar o uso das colunas não indicadas podemos ocultá-las da aba de visualização do relatório de modo que elas não possam ser inseridas nos gráfico, para isso vamos no meu lateral esquerdo em 'Exibição de dados' -> Abrimos a tabela desejada -> Clicamos com o segundo botão do mouse no título da coluna que desejamos ocultar -> Clicamos na opção 'Ocultar da visualização de relatório'
+
+
+---------------------------------------------------------------------------------------------------------
