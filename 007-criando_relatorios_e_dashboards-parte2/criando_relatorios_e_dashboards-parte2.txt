@@ -161,3 +161,16 @@ Podemos também usar o 'garfo invertido' para andar um nivel abaixo da categoria
 
 ---------------------------------------------------------------------------------------------------------
 
+
+17-segmentacao_de_dados-parte1
+
+Segmentação de Dados são filtros feitos para que os dados possam ser expostos de maneira diferente to seu TOTAL, como por exemplo expor os dados por ANO ou MÊS.
+
+Para incluir uma segmentação de dados vamos na aba da direita em 'Visualizações' e escolhemos o gráfico de 'Segmentação de dados'
+
+Por padrão ele virá na opção de menu deslizante, para alterarmos a opção teremos que ir na aba a direita 'Visualizações' -> 'Formatar o visual' -> 'Configurações de segmentação' -> 'Opções' -> 'Estilo'
+
+Para fazer seleções múltiplas de anos precisamos segurar o CTRL enquanto efetuamos o segundo clique, para que seja possível esse tipo de seleção sem utilizar o CTRL iremos no menu lateral 'Visualizações' -> 'Formatar o visual' -> 'Visual' -> 'Seleção' -> e desmarcamos a opção 'Seleção múltipla com CTRL'
+
+
+---------------------------------------------------------------------------------------------------------
