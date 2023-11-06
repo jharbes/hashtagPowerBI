@@ -143,3 +143,21 @@ Selecionaremos a medida 'Lucro Total' para o eixo Y e a coluna 'Marca' da Tabela
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+16-criando_analises_inteligentes_com_o_filtro_drill_down
+
+Quando clicamos em uma marca ou categoria em um gráfico do powerbi o natural/default é que todos os outros gráficos reajam a essa seleção utilizando a opção REALCE (quando ele não apaga os outros dados mas apenas realça os que foram selecionados), podemos alterar essa opção para que por padrão ele FILTRE em vez de REALÇAR, para isso vamos em 'Menu Superior' -> 'Arquivo' -> 'Opções e configurações' -> 'Opções' -> 'Configurações do relatório' -> 'Opções visuais' -> 'Alterar a interação visual padrão de realce cruzado para filtragem cruzada'
+
+OBS: Podemos efetuar essa configuração de outra maneira personalizando para cada gráfico se for do interesse em vez de já deixa-la ligada para TODOS os gráficos
+
+
+Podemos também fazer com que um gráfico funcione para mais de um parametro, como por exemplo o gráfico de Lucro Total x Marca, pode também funcionar como Lucro Total x Categoria e Lucro Total x Produto. Para isso pegaremos as colunas desejadas e incluiremos TODAS elas uma abaixo da outra no 'Eixo X', após isso será criado um menu na parte do cima do gráfico, feito isso poderemos navegar pelas opções com a 'seta para cima' e as 'duas setas para baixo', criando uma hierarquia entre as colunas utilizadas para representar o gráfico.
+
+Podemos também clicar na 'seta para baixo' para habilitar o drill down, isso significa ter filtros multiplos, onde ao clicar em uma marca e categoria por exemplo TODO o dashboard criará filtros vinculados aos dois parametros escolhidos (marca e categoria), ou seja em vez de aplicar o filtro apenas à SAMSUNG ou aos NOTEBOOKS podemos aplicar filtros aos NOTEBOOKS da SAMSUNG acumulando os filtros.
+
+Podemos também usar o 'garfo invertido' para andar um nivel abaixo da categoria, o que significa atrelar mais informações ao gráfico como em vez de aparecer apenas a MARCA passará a aparecer a MARCA e a CATEGORIA, clicando uma segunda vez ele vai a um nivel mais baixo ainda mostrando MARCA, CATEGORIA e PRODUTO.
+
+
+---------------------------------------------------------------------------------------------------------
+
