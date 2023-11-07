@@ -215,3 +215,23 @@ O argumento "Sem Vendas" será a resposta da função caso seja impossível efet
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+21-grafico_de_scroller
+
+IMPORTANTE: O gráfico de scroller não está por default disponível no Power BI, para utilizá-lo precisamos baixá-lo e para isso criar uma conta para conseguir esses gráficos extras
+
+Para conseguir esses gráficos extras temos que ir na aba a direita chamada 'Visualizações' -> 'Criar visual' -> Ir na última opção de gráficos que são um três pontinhos (...) -> 'Obter mais visuais'
+
+Para incluir o gráfico iremos novamente na aba 'Visualizações' -> 'Criar Visual' -> e nas ultimas opções onde consta o gráfico 'Scroller' baixado
+
+Em 'Category' iremos incluir o que desejamos estudar no caso vamos incluir a 'Categoria' na tabela 'Produtos', em 'Measure Absolute' vamos incluir qual medida será o parametro de evolução ou alteração, nesse caso 'Total Faturamento' e no campo 'Measure Deviation' vamos incluir qual será o tipo de variação a ser analisado, nesse caso '% Variação Faturamento'.
+
+O gráfico pode aparecer apagado, isso pode se dar porque o título está ocupando o espaço destinado ao gráfico, para corrigir isso basta ir na aba da direita 'Visualizaçoes' -> 'Formatar o visual' -> Desabilitar o 'Título'
+
+Inicialmente o faturamento que vai aparecer no gráfico será referente ao ano inteiro, para acertar o faturamento apenas para o último mês teremos que ir na aba a direita 'Filtros' -> vamos acrescentar o filtro da coluna 'Início do Mês' arrastando ela até o campo em branco na aba 'Filtros' e escolhendo a opção 'Tipo de filtro' -> 'N superior' -> 'Mostrar itens' -> 'Superior' -> 1 -> 'Por valor' -> adicionar a coluna 'Início do Mês'
+
+Podemos também pintar as letras das categorias de acordo com uma lógica onde fiquem vermelhas as letras onde o faturamento caiu e verde onde o faturamento subiu, para isso selecionamos o gráfico de scroller, vamos na aba a direita 'Visualizações' -> 'Formatar o visual' -> 'Scroller' -> 'Status text coloring' -> ON
+
+
+---------------------------------------------------------------------------------------------------------
