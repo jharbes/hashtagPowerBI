@@ -174,3 +174,24 @@ Para fazer seleções múltiplas de anos precisamos segurar o CTRL enquanto efet
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+19-criando_medidas-parte1
+
+Vamos criar medidas visando saber o quanto as vendas caíram ou subíram em relação a cada categoria de produto de um mês para outro (do penúltimo mês para o último mês existente no calendário atual)
+
+Para fins de testes vamos criar uma MATRIZ utilizando a aba a direita 'Visualizações' -> 'Criar Visual' -> 'Matriz' , logo depois vamos colocar na opção 'Linhas' da Matriz a informação de 'Início do Mês' presenta na tabela 'Calendário', clicaremos com o segundo botão do mouse na opção 'Início do Mês' que está inserida em 'Linhas', logo depois disso alteraremos a exibição de datas de 'Hierarquia de datas' para 'Início do mês'
+
+Agora adicionaremos a medida 'Total Faturamento' no campo 'Valores' da Matriz
+
+Observe que a coluna 'Início do Mês' possui uma data do primeiro dia do mês em seu valor, embora seja apenas a data de apenas um dia o faturamento correspondente na coluna 'Total Faturamento' é do mês todo, então é desejável que façamos a alteração de apenas uma data como está na coluna 'Início do Mês' para algo que represente o mês todo.
+
+Para efetuarmos essa alteração iremos no menu lateral esquerdo em 'Exibição de dados' depois na tabela 'Calendário' e depois no título da coluna 'Início do Mês', após isso iremos no 'Menu Superior' -> 'Ferramentas de Coluna' -> 'Formato' e escolheremos a formatação desejada para que apareça como se fosse o mês inteiro e não apenas o primeiro dia do mês.
+
+Para terminarmos a nossa medida desejada comparando o faturamento do ultimo mês com do penultimo criaremos uma medida, sendo assim:
+	Faturamento Mês Anterior = CALCULATE([Total Faturamento],DATEADD('Calendário'[Data],-1,MONTH))
+
+onde a formula CALCULATE efetuará um filtro da medida TOTAL FATURAMENTO, DATEADD fará um deslocamento de data, 'Calendário'[Data] representa todas as datas do calendário e -1 MONTH representa um mês antes da data atual que 'Calendário'[Data] representa.
+
+
+---------------------------------------------------------------------------------------------------------
