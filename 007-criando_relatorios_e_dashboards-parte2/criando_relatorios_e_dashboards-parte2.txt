@@ -235,3 +235,13 @@ Podemos também pintar as letras das categorias de acordo com uma lógica onde f
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+22-tooltip-dicas_de_ferramentas-opcao_basica
+
+Os tooltip são os 'baloes de informações' que aparecem quando passamos o mouse por cima de algum gráfico, eles constam como ligados por default, acontece que nós podemos incluir outras informações nesses 'baloes' de forma a incrementar as informações obtidas nos tooltips.
+
+Para utilizarmos em sua forma básica nós selecionamos o gráfico desejado vamos na aba a direita 'Visualizações' -> 'Criar Visual' -> 'Dicas de ferramentas' e vamos adicionando todas as informações que gostariamos que fossem visualizadas quando passassemos o mouse na area do grafico.
+
+
+---------------------------------------------------------------------------------------------------------
