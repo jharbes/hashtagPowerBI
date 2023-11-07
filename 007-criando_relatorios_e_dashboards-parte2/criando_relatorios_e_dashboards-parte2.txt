@@ -195,3 +195,23 @@ onde a formula CALCULATE efetuará um filtro da medida TOTAL FATURAMENTO, DATEAD
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+20-criando_medidas-parte2
+
+Agora vamos criar uma medida para calcular qual o percentual de alteração do faturamento em relaçao do ultimo mes para o penultimo, para isso utilizaremos a formula basica:
+
+	Percentual de alteração = (ult. faturamento - penult. faturamento)/penult. faturamento
+
+Criaremos a medida com a fórmula:
+
+	% Variação Faturamento = ([Total Faturamento] - [Faturamento Mês Anterior])/[Faturamento Mês Anterior]
+
+porém podemos melhorar a fórmula utilizando a função DIVIDE, pois no caso acima o primeiro resultado será 'Infinito' pois a ausencia de faturamento no mês anterior leva a uma 'quase' divisão por zero, portanto a formula mais indicada é:
+
+	% Variação Faturamento = DIVIDE([Total Faturamento] - [Faturamento Mês Anterior],[Faturamento Mês Anterior],"Sem Vendas")
+
+O argumento "Sem Vendas" será a resposta da função caso seja impossível efetuar o cálculo. (argumento opcional)
+
+
+---------------------------------------------------------------------------------------------------------
