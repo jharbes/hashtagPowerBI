@@ -245,3 +245,21 @@ Para utilizarmos em sua forma básica nós selecionamos o gráfico desejado vamo
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+23-tooltip-dicas_de_ferramentas-opcao_avancada-parte1
+
+Os tooltip avançados são os 'baloes de informações' que aparecem quando passamos o mouse por cima de algum gráfico, porém em vez de aparecerem apenas dados simples como nos tooltips básicos, nos avançados teremos outros gráficos aparecendo nesses 'baloes de informações'
+
+Para fazermos esses tooltips temos que criar uma Página nova em nossa Power BI (nova aba) onde faremos a inclusão desses gráficos, essa nova página corresponderá ao tooltip em questão, para isso algumas formatações serão necessárias como por exemplo o ajuste de tamanho da página para caber dentro do tooltip.
+
+Para formatar a página como um tooltip iremos na aba a direita 'Visualizações' -> 'Formato da Página' -> 'Informações da página' -> 'Permitir usar como uma dica de ferramenta' -> ON
+
+A opção na aba a direita 'Visualizações' -> 'Formato da Página' -> 'Configurações de tela' -> 'Tipo' -> 'Dica de Ferramenta também deve estar habilitada
+
+Agora que a página já está devidamente configurada para o tamanho do tooltip podemos começar a incluir os gráficos necessários, uma dica é colocar os gráficos não colados na borda para que fique evidente o tooltip e nao se confunda com o fundo da tela.
+
+Depois de pronto o novo tooltip, para adicionarmos ele como tooltip de um gráfico da aba principal selecionamos o gráfico onde desejamos colocar o tooltip, vamos na aba a direita 'Visualizações' -> 'Formatar o visual' -> 'Geral' -> 'Dicas de ferramentas' -> 'Opções' -> 'Página de Relatório' -> <pagina_desejada>
+
+
+---------------------------------------------------------------------------------------------------------
