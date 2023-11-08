@@ -265,3 +265,13 @@ IMPORTANTE**: Podemos aproveitar o mesmo tooltip/aba criada para servir de toolt
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+28-kpi-parte1
+
+KPI ou Key Performance Indicator funciona para demonstrar a performance de algum indicador em relação a um parâmetro ou meta, por exemplo podemos indicar uma meta de venda de 10 produtos por dia, sendo a aba 'Valor' do gráfico o total de vendas, o 'Eixo da tendência' o dia e o 'Destino' o valor 10.
+
+Caso seja interessante mostrar qual a data vinculada ao resultado exposto no KPI em questão podemos selecionar o KPI desejado, ir na aba do lado direito em 'Visualizações' -> 'Formatar o visual' -> 'Visual' -> 'Data'
+
+
+---------------------------------------------------------------------------------------------------------
