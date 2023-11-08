@@ -261,5 +261,7 @@ Agora que a página já está devidamente configurada para o tamanho do tooltip 
 
 Depois de pronto o novo tooltip, para adicionarmos ele como tooltip de um gráfico da aba principal selecionamos o gráfico onde desejamos colocar o tooltip, vamos na aba a direita 'Visualizações' -> 'Formatar o visual' -> 'Geral' -> 'Dicas de ferramentas' -> 'Opções' -> 'Página de Relatório' -> <pagina_desejada>
 
+IMPORTANTE**: Podemos aproveitar o mesmo tooltip/aba criada para servir de tooltip para mais de um gráfico na aba/relatório principal do PowerBI
+
 
 ---------------------------------------------------------------------------------------------------------
