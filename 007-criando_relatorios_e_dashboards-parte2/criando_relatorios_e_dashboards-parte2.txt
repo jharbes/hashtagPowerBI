@@ -275,3 +275,15 @@ Caso seja interessante mostrar qual a data vinculada ao resultado exposto no KPI
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+29-kpi-parte2
+
+IMPORTANTE**: Podemos aumentar o número de linhas no campo de Fórmulas DAX para melhorar a visualização de fórmulas grandes, para isso basta apertar SHIFT + ENTER para incluir linhas no campo
+
+Para calcularmos o novo KPI precisaremos criar uma medida que represente o total de pedido para o ano ANTERIOR, nesse caso usaremos a fórmula:
+
+	Total Pedidos Ano Anterior = CALCULATE([Total Pedidos],DATEADD('Calendário'[Data],-1,YEAR))
+
+
+---------------------------------------------------------------------------------------------------------
