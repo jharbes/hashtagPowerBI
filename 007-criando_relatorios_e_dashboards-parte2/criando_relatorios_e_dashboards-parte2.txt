@@ -299,6 +299,27 @@ Esse gráfico tem grande utilidade quando precisamos comparar dois valores, por 
 ---------------------------------------------------------------------------------------------------------
 
 
+32-formatacao_condicional_dinamica
+
+Para fazermos um formataçao condicional dinamica teremos que usar um artificio matemático
+
+A formatação condicional so admite valores estáticos, porem podemos efetuar o calculo de uma medida por exemplo para assim criar a analise dinamica
+
+Exemplo:
+
+	Queremos que a coluna do mês do gráfico de colunas fique azul caso o faturamento atual seja maior que o faturamento do mês anterior e fique vermelho caso o faturamento do mês atual seja menor que do mês anterior, para isso podemos criar uma medida cujo valor seja:
+
+	Indicador Meta Batida = DIVIDE([Total Faturamento],[Faturamento Mês Anterior])
+
+	Nesse caso, se o valor for maior ou igual a 1 a meta estará batida, caso contrário a meta não terá sido batida, sendo assim poderemos usar o valor dessa nova medida ao criar a nova formatação condicional.
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------
+
+
 35-hiperlinks_para_navegar_no_relatorio_e_ajustes_finais-parte1
 
 O power BI não possui botões nativamente, sendo assim criaremos retângulos e colocaremos eles com transparencia de 100% por cima da parte das imagens onde queremos que funcionem como botões, para isso iremos em 'Menu Superior' -> 'Inserir' -> 'Formas' -> 'Retangulo' e faremos os procedimentos
