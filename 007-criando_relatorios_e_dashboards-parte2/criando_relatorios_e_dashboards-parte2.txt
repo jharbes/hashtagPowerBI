@@ -287,3 +287,19 @@ Para calcularmos o novo KPI precisaremos criar uma medida que represente o total
 
 
 ---------------------------------------------------------------------------------------------------------
+
+
+35-hiperlinks_para_navegar_no_relatorio_e_ajustes_finais-parte1
+
+O power BI não possui botões nativamente, sendo assim criaremos retângulos e colocaremos eles com transparencia de 100% por cima da parte das imagens onde queremos que funcionem como botões, para isso iremos em 'Menu Superior' -> 'Inserir' -> 'Formas' -> 'Retangulo' e faremos os procedimentos
+
+Ao colocar por cima do local desejado selecionaremos o retangulo e iremos na aba a direita 'Formato' -> 'Forma' -> 'Estilo' e colocaremos a transparência em 100%, depois na mesma parte iremos em 'Borda' e desligaremos a borda.
+
+Após feito esses procedimentos selecionaremos novamente o retangulo, iremos na aba a direita 'Formato' -> 'Forma' -> 'Ação' e ligaremos ela, depois iremos em 'Tipo' -> 'Indicador'
+
+Agora teremos que adicionar as páginas desejadas para navegação como 'Indicadores', para isso vamos em cada uma das páginas (abas) desejadas, depois vamos em 'Menu Superior' -> 'Exibição' -> 'Indicadores' -> 'Adicionar Indicador'
+
+Após criar os indicadores desejados vamos a cada um dos retangulos criados incialmente, selecionamos eles, vamos na aba a direita em 'Formato' -> 'Forma' -> 'Ação' -> 'Tipo' e colocamos Indicador -> 'Indicador' colocamos o nome dos indicadores criados
+
+
+---------------------------------------------------------------------------------------------------------
