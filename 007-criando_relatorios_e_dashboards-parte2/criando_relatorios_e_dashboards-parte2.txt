@@ -317,6 +317,15 @@ Exemplo:
 ---------------------------------------------------------------------------------------------------------
 
 
+33-reutilizando_as_segmentacoes_de_dados
+
+Rutilizar a segmentacao significa fazermos com que uma segmentação de dados tambem influencie outra aba, para selecionamos a segmentacao, vamos em 'Menu Superior' -> 'Exibição' -> 'Segmentações de dados de sincronização' 
+
+As páginas onde escolhermos a primeira coluna (todas as páginas envolvidas) e marcarmos passará a ser influenciada pela segmentação da página atual
+
+Importante saber que por DEFAULT, ao copiar e colar uma segmentação para outra página ela liga a sincronização, por isso é importante utilizar a opção ensinada para desligar a sincronização se for o caso.
+
+
 ---------------------------------------------------------------------------------------------------------
 
 
