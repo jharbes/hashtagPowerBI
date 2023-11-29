@@ -289,6 +289,16 @@ Para calcularmos o novo KPI precisaremos criar uma medida que represente o total
 ---------------------------------------------------------------------------------------------------------
 
 
+31-grafico_de_colunas
+
+Para utilizarmos o grafico de colunas e linhas iremos na aba a direita 'Visualizações' -> 'Criar Visual' -> 'Gráfico de Colunas empilhadas e linha'
+
+Esse gráfico tem grande utilidade quando precisamos comparar dois valores, por exemplo os valores das vendas efetuadas mês a mês ficam nas colunas e nas linhas ficam as metas esperadas para aquele mês podendo ver de imediato se a meta foi batida ou não
+
+
+---------------------------------------------------------------------------------------------------------
+
+
 35-hiperlinks_para_navegar_no_relatorio_e_ajustes_finais-parte1
 
 O power BI não possui botões nativamente, sendo assim criaremos retângulos e colocaremos eles com transparencia de 100% por cima da parte das imagens onde queremos que funcionem como botões, para isso iremos em 'Menu Superior' -> 'Inserir' -> 'Formas' -> 'Retangulo' e faremos os procedimentos
